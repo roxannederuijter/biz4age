@@ -144,7 +144,7 @@ function d_strongarm() {
     'domain' => '',
     'prefix' => 'nl',
     'weight' => '0',
-    'javascript' => 'babKXmGCwGw0Uyqx46kMoHwh-3WlA_LDrP_AlNbh8pQ',
+    'javascript' => 'Fco9XmOcdxe0uT7_zQfAYh_jU98-RAw3D-FRFkKTReU',
   );
   $export['language_default'] = $strongarm;
 
@@ -260,13 +260,13 @@ function d_strongarm() {
     'alpha_layouts_alpha_default_wide_responsive' => 1,
     'alpha_layouts_alpha_default_wide_weight' => '3',
     'alpha_layouts_alpha_default_wide_media' => 'all and (min-width: 1220px)',
-    'alpha_layouts_alpha_default_wide1440_responsive' => 1,
+    'alpha_layouts_alpha_default_wide1440_responsive' => 0,
     'alpha_layouts_alpha_default_wide1440_weight' => '4',
     'alpha_layouts_alpha_default_wide1440_media' => 'all and (min-width: 1460px) and (min-device-width: 1460px), all and (max-device-width: 1520px) and (min-width: 1520px) and (orientation:landscape)',
-    'alpha_layouts_alpha_default_wide1680_responsive' => 1,
+    'alpha_layouts_alpha_default_wide1680_responsive' => 0,
     'alpha_layouts_alpha_default_wide1680_weight' => '5',
     'alpha_layouts_alpha_default_wide1680_media' => 'all and (min-width: 1700px) and (min-device-width: 1700px), all and (max-device-width: 1760px) and (min-width: 1760px) and (orientation:landscape)',
-    'alpha_layouts_alpha_default_wide1920_responsive' => 1,
+    'alpha_layouts_alpha_default_wide1920_responsive' => 0,
     'alpha_layouts_alpha_default_wide1920_weight' => '6',
     'alpha_layouts_alpha_default_wide1920_media' => 'all and (min-width: 1940px)',
     'alpha_layouts_alpha_default_fluid_responsive' => 0,
