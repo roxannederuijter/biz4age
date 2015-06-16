@@ -223,7 +223,8 @@ input[type="button"]:hover,
       display: block;
       margin: 0 auto;
       padding: 75px 0 0 35px;
-      box-shadow: 0px 10px 20px -5px #888888; }
+      box-shadow: 0px 10px 20px -5px #888888;
+      margin-bottom: 80px; }
       #zone-header #region-header-first .block-bean-frontpage-banner h3 {
         font-family: "Raleway", sans-serif;
         color: #fff;
@@ -253,5 +254,26 @@ input[type="button"]:hover,
     font-weight: 700;
     font-size: 1.125em;
     padding: 24px 50px; }
+
+.block-bean-conference {
+  width: 33.3%;
+  float: left; }
+
+.block-bean-about-us {
+  width: 33.3%;
+  float: left; }
+
+.block-bean-magazine {
+  width: 33.3%;
+  float: left; }
+
+.bean-cta img {
+  width: 40%;
+  margin-bottom: 20px; }
+.bean-cta .field-name-field-ondertitel {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500; }
 
 /*# sourceMappingURL=global.css.map */

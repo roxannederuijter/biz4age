@@ -590,6 +590,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create any cta bean'.
+  $permissions['create any cta bean'] = array(
+    'name' => 'create any cta bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'create files'.
   $permissions['create files'] = array(
     'name' => 'create files',
@@ -650,6 +659,15 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'delete any banner bean'.
   $permissions['delete any banner bean'] = array(
     'name' => 'delete any banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'delete any cta bean'.
+  $permissions['delete any cta bean'] = array(
+    'name' => 'delete any cta bean',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -835,6 +853,15 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'edit any banner bean'.
   $permissions['edit any banner bean'] = array(
     'name' => 'edit any banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'edit any cta bean'.
+  $permissions['edit any cta bean'] = array(
+    'name' => 'edit any cta bean',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -1135,6 +1162,18 @@ function default_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'view any cta bean'.
+  $permissions['view any cta bean'] = array(
+    'name' => 'view any cta bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'bean',
   );
