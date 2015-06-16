@@ -251,3 +251,19 @@ input[type="button"]:hover,
   }
 }
 
+.button {
+  text-align:center;
+  margin:60px 0;
+  a.button {
+    text-align:center;
+    font-family:$font;
+    color:#fff;
+    text-transform:uppercase;
+    background-color:$blue;
+    font-weight:700;
+    font-size:1.125em;
+    padding:24px 50px;
+  }
+
+}
+
