@@ -281,6 +281,7 @@ input[type="button"]:hover,
 }
 
 .bean-cta {
+  margin-bottom:75px;
   img {
     width:40%;
     margin-bottom:20px;
@@ -292,4 +293,64 @@ input[type="button"]:hover,
     font-weight:500;
   }
 }
+
+.zone-preface-second-wrapper {
+  background-color:#68c7e9;
+  padding:50px 0;
+  .block-projecten-block {
+    .view-header {
+      width:80%;
+      margin:0 auto;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 35px;
+      p {
+        color:#fff;
+        font-family:$font;
+        font-size:1.125em;
+        font-weight:500;
+        text-align:center;
+      }
+    }
+    .views-row {
+      width: 24.3%;
+      float: left;
+      padding-right: 13%;
+      margin-bottom:50px;
+    }
+    .views-row-last {
+      padding-right:0;
+    }
+    .views-field-field-image {
+      img {
+        margin:0 0 10px 0;
+      }
+    }
+    .views-field-title {
+      color:#fff;
+      font-family:$font;
+      font-size:1.500em;
+      font-weight:700;
+      margin-bottom:10px;
+    }
+    .views-field-body {
+      p {
+        color:#fff;
+        font-family:$font;
+        font-size:0.938em;
+        font-weight:500;
+      }
+    }
+  }
+}
+
+h2 {
+  font-family:$font;
+  font-size:2.250em;
+  color:#fff;
+  font-weight:700;
+  text-transform:uppercase;
+  text-align:center;
+}
+
+
 

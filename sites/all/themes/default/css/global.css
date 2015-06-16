@@ -267,13 +267,58 @@ input[type="button"]:hover,
   width: 33.3%;
   float: left; }
 
-.bean-cta img {
-  width: 40%;
-  margin-bottom: 20px; }
-.bean-cta .field-name-field-ondertitel {
-  text-align: center;
+.bean-cta {
+  margin-bottom: 75px; }
+  .bean-cta img {
+    width: 40%;
+    margin-bottom: 20px; }
+  .bean-cta .field-name-field-ondertitel {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125em;
+    font-weight: 500; }
+
+.zone-preface-second-wrapper {
+  background-color: #68c7e9;
+  padding: 50px 0; }
+  .zone-preface-second-wrapper .block-projecten-block .view-header {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 35px; }
+    .zone-preface-second-wrapper .block-projecten-block .view-header p {
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-size: 1.125em;
+      font-weight: 500;
+      text-align: center; }
+  .zone-preface-second-wrapper .block-projecten-block .views-row {
+    width: 24.3%;
+    float: left;
+    padding-right: 13%;
+    margin-bottom: 50px; }
+  .zone-preface-second-wrapper .block-projecten-block .views-row-last {
+    padding-right: 0; }
+  .zone-preface-second-wrapper .block-projecten-block .views-field-field-image img {
+    margin: 0 0 10px 0; }
+  .zone-preface-second-wrapper .block-projecten-block .views-field-title {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.500em;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .zone-preface-second-wrapper .block-projecten-block .views-field-body p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.938em;
+    font-weight: 500; }
+
+h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 1.125em;
-  font-weight: 500; }
+  font-size: 2.250em;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
 
 /*# sourceMappingURL=global.css.map */
