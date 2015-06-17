@@ -714,5 +714,31 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['views-video_s-block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'video_s-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'home',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'preface_third',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Watch our videos',
+    'visibility' => 1,
+  );
+
   return $export;
 }

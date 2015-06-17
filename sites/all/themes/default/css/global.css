@@ -321,4 +321,31 @@ h2 {
   text-transform: uppercase;
   text-align: center; }
 
+.zone-preface-third-wrapper {
+  background-color: #4d87c5;
+  padding: 50px 0; }
+  .zone-preface-third-wrapper h2 {
+    border-bottom: 1px solid #fff;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .zone-preface-third-wrapper .view-video-s .views-field-title {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .zone-preface-third-wrapper .view-video-s .views-field-body {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    width: 65%;
+    margin: 0 auto; }
+  .zone-preface-third-wrapper .view-video-s .views-field-field-video {
+    text-align: center;
+    margin-bottom: 30px; }
+
 /*# sourceMappingURL=global.css.map */
