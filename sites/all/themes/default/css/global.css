@@ -349,4 +349,31 @@ h2 {
     text-align: center;
     margin-bottom: 30px; }
 
+.views-slideshow-controls-text-previous {
+  display: block;
+  position: absolute;
+  top: 32%;
+  left: 0px;
+  z-index: 100;
+  background: url("img/left-arrow.png") no-repeat center;
+  background-size: 40px;
+  width: 40px;
+  height: 62px;
+  text-indent: -9999px; }
+
+.views-slideshow-controls-text-pause {
+  display: none; }
+
+.views-slideshow-controls-text-next {
+  display: block;
+  position: absolute;
+  top: 32%;
+  right: 0px;
+  z-index: 100;
+  text-indent: -9999px;
+  background: url("img/right-arrow.png") no-repeat center;
+  background-size: 40px;
+  width: 40px;
+  height: 62px; }
+
 /*# sourceMappingURL=global.css.map */
