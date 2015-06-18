@@ -323,7 +323,8 @@ h2 {
 
 .zone-preface-third-wrapper {
   background-color: #4d87c5;
-  padding: 50px 0; }
+  padding: 50px 0;
+  box-shadow: 0px 10px 20px -5px #888888; }
   .zone-preface-third-wrapper h2 {
     border-bottom: 1px solid #fff;
     width: 60%;
