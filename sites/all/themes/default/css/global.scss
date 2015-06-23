@@ -417,6 +417,38 @@ h2 {
   height: 62px;
 }
 
+.front {
+  .block-partners-block {
+    h2 {
+      color:#000;
+    }
+    p {
+      font-size:1.125em;
+      font-weight:500;
+    }
+    .view-header {
+      border-bottom: 1px solid #464b58;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom:30px;
+    }
+  }
+  .view-partners {
+    .view-content {
+      width:80%;
+      margin:0 auto;
+    }
+    .views-field-field-logo {
+      width:33.3%;
+      float:left;
+      height:130px;
+      margin-bottom:30px;
+    }
+  }
+}
+
+
 
 
 

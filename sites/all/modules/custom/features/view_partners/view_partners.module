@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View - Partners feature.
+ */
+
+include_once 'view_partners.features.inc';
