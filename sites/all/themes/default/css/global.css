@@ -438,4 +438,17 @@ h2 {
 .block-news-news-frontpage .view-footer {
   clear: both; }
 
+.zone-footer-wrapper {
+  padding: 50px 0; }
+  .zone-footer-wrapper h2.block-title {
+    color: #4d87c5;
+    font-size: 1.500em;
+    font-weight: 700;
+    text-align: left; }
+  .zone-footer-wrapper p {
+    color: #4d87c5;
+    font-size: 0.938em;
+    font-weight: 500;
+    text-align: left; }
+
 /*# sourceMappingURL=global.css.map */
