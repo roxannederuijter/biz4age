@@ -464,10 +464,11 @@ h2 {
 
 .block-news-news-frontpage {
   .views-row {
-    width: 24.3%;
+    width: 33.3%;
     float: left;
-    padding-right: 13%;
+    padding-right: 8%;
     margin-bottom: 50px;
+    box-sizing: border-box;
     .views-field-field-image {
       img {
         margin: 0 0 10px 0;
@@ -486,6 +487,9 @@ h2 {
       font-size: 0.938em;
       font-weight: 500;
     }
+  }
+  .view-footer {
+    clear: both;
   }
 }
 
