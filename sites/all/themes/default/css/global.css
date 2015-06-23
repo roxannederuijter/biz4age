@@ -406,8 +406,15 @@ h2 {
   margin-bottom: 30px; }
 
 .zone-postscript-second-wrapper {
-  background-color: #4d87c5; }
+  background-color: #4d87c5;
+  padding: 50px 0; }
 
+.block-news-news-frontpage h2.block-title {
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 50px;
+  padding-bottom: 30px; }
 .block-news-news-frontpage .views-row {
   width: 33.3%;
   float: left;
