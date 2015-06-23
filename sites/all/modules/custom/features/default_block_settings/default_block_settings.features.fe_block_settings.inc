@@ -688,6 +688,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-news-news_frontpage'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'news-news_frontpage',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'home',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Latest news',
+    'visibility' => 1,
+  );
+
   $export['views-partners-block'] = array(
     'cache' => -1,
     'custom' => 0,
