@@ -407,7 +407,8 @@ h2 {
 
 .zone-postscript-second-wrapper {
   background-color: #4d87c5;
-  padding: 50px 0; }
+  padding: 50px 0;
+  box-shadow: 0px 10px 20px -5px #888888; }
 
 .block-news-news-frontpage h2.block-title {
   width: 60%;
