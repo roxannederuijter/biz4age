@@ -451,4 +451,15 @@ h2 {
     font-weight: 500;
     text-align: left; }
 
+.block-superfish-2 ul.menu li {
+  margin: 0; }
+.block-superfish-2 li {
+  width: 100%;
+  margin: 0; }
+  .block-superfish-2 li a {
+    color: #4d87c5;
+    font-size: 0.938em;
+    font-weight: 500;
+    text-align: left; }
+
 /*# sourceMappingURL=global.css.map */

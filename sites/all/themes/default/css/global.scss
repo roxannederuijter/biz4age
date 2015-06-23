@@ -517,3 +517,19 @@ h2 {
     text-align:left;
   }
 }
+
+.block-superfish-2 {
+  ul.menu li {
+    margin:0;
+  }
+  li {
+    width:100%;
+    margin:0;
+    a {
+      color:$blue;
+      font-size:0.938em;
+      font-weight:500;
+      text-align:left;
+    }
+  }
+}
