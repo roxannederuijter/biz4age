@@ -724,4 +724,18 @@ h2 {
     font-size: 15px;
     color: #fff;
   }
+  .form-textarea-wrapper textarea, textarea, input[type="email"], input[type="text"] {
+    border-radius: 11px;
+  }
+  input[type="submit"] {
+    text-align:center;
+    font-family:$font;
+    color:#fff;
+    text-transform:uppercase;
+    background-color:$blue;
+    font-weight:700;
+    font-size:1.125em;
+    padding:15px 50px;
+    border-radius:0;
+  }
 }

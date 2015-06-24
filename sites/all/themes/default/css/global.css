@@ -601,5 +601,17 @@ h2 {
 .context-contact .field-name-field-body-right {
   font-size: 15px;
   color: #fff; }
+.context-contact .form-textarea-wrapper textarea, .context-contact textarea, .context-contact input[type="email"], .context-contact input[type="text"] {
+  border-radius: 11px; }
+.context-contact input[type="submit"] {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #4d87c5;
+  font-weight: 700;
+  font-size: 1.125em;
+  padding: 15px 50px;
+  border-radius: 0; }
 
 /*# sourceMappingURL=global.css.map */
