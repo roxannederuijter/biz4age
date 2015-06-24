@@ -569,6 +569,44 @@ h2 {
   }
 }
 
+.block-news-newspage {
+  h2.block-title {
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+  }
+  .views-row {
+    width: 33.3%;
+    float: left;
+    padding-right: 8%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    .views-field-field-image {
+      img {
+        margin: 0 0 10px 0;
+      }
+    }
+    .views-field-title {
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-size: 1.500em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .views-field-body p {
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-size: 0.938em;
+      font-weight: 500;
+    }
+  }
+  .view-footer {
+    clear: both;
+  }
+}
+
 .zone-footer-wrapper {
   padding:50px 0;
   h2.block-title {
