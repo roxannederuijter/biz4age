@@ -41,6 +41,7 @@ features[fe_block_settings][] = system-user-menu
 features[fe_block_settings][] = user-login
 features[fe_block_settings][] = user-new
 features[fe_block_settings][] = user-online
+features[fe_block_settings][] = views-news-news
 features[fe_block_settings][] = views-news-news_frontpage
 features[fe_block_settings][] = views-partners-block
 features[fe_block_settings][] = views-projecten-block

@@ -792,6 +792,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-news-news'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'news-news',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_fourth',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -17,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Latest news',
+    'visibility' => 0,
+  );
+
   $export['views-news-news_frontpage'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -805,7 +831,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
