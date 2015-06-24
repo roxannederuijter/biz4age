@@ -117,8 +117,8 @@ function views_videos_views_default_views() {
     'video' => 'video',
   );
 
-  /* Display: Block */
-  $handler = $view->new_display('block', 'Block', 'block');
+  /* Display: Frontpage-Block */
+  $handler = $view->new_display('block', 'Frontpage-Block', 'block');
   $translatables['video_s'] = array(
     t('Master'),
     t('Video\'s'),
@@ -128,7 +128,7 @@ function views_videos_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('Block'),
+    t('Frontpage-Block'),
   );
   $export['video_s'] = $view;
 
