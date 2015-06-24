@@ -204,11 +204,11 @@ input[type="button"]:hover,
     font-weight: 800;
     margin: 68px 55px 0 0; }
   .block-superfish-1 ul li a:hover {
-    color: #1ab7ea;
-    border-bottom: 3px solid #1ab7ea; }
+    color: #68c7e9;
+    border-bottom: 3px solid #68c7e9; }
   .block-superfish-1 ul li a.active {
-    color: #1ab7ea;
-    border-bottom: 3px solid #1ab7ea; }
+    color: #68c7e9;
+    border-bottom: 3px solid #68c7e9; }
 
 #zone-header {
   width: 100%;
@@ -259,7 +259,7 @@ input[type="button"]:hover,
     font-family: "Raleway", sans-serif;
     color: #fff;
     text-transform: uppercase;
-    background-color: #1ab7ea;
+    background-color: #68c7e9;
     font-weight: 700;
     font-size: 1.125em;
     padding: 24px 50px; }
@@ -418,7 +418,7 @@ h2 {
   margin-bottom: 30px; }
 
 .zone-postscript-wrapper {
-  background-color: #1ab7ea;
+  background-color: #68c7e9;
   padding: 50px 0;
   box-shadow: 0px 10px 20px -5px #888888; }
 
@@ -554,7 +554,7 @@ h2 {
   text-align: left; }
 
 .block-projecten-projects-page .views-row-odd {
-  background-color: #1ab7ea;
+  background-color: #68c7e9;
   float: left;
   padding: 30px; }
 .block-projecten-projects-page .views-row-even {
@@ -589,7 +589,7 @@ h2 {
         box-shadow: 0px 10px 20px -5px #888888; }
 
 .context-contact .zone-content-wrapper {
-  background-color: #1ab7ea;
+  background-color: #68c7e9;
   padding: 50px 0; }
 
 /*# sourceMappingURL=global.css.map */
