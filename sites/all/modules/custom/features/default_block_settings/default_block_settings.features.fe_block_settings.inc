@@ -903,7 +903,7 @@ function default_block_settings_default_fe_block_settings() {
     'module' => 'views',
     'node_types' => array(),
     'pages' => '<front>
-projects',
+biz4age-projects',
     'roles' => array(),
     'themes' => array(
       'default' => array(
