@@ -202,7 +202,8 @@ input[type="button"]:hover,
     color: #4d87c5;
     text-transform: uppercase;
     font-weight: 800;
-    margin: 68px 55px 0 0; }
+    margin: 68px 55px 0 0;
+    border-bottom: 3px solid transparent; }
   .block-superfish-1 ul li a:hover {
     color: #68c7e9;
     border-bottom: 3px solid #68c7e9; }
@@ -644,5 +645,49 @@ h2 {
 
 .zone-branding-wrapper {
   box-shadow: 0px 10px 20px -5px #888888; }
+
+ul#superfish-1 li.sf-item-2 ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #68c7e9;
+  padding: 0;
+  width: 100% !important;
+  border-radius: 0; }
+  ul#superfish-1 li.sf-item-2 ul li {
+    float: none;
+    width: 200px;
+    background: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0 0 0 5px; }
+    ul#superfish-1 li.sf-item-2 ul li a {
+      background: none;
+      margin: 0;
+      margin-top: 17px;
+      padding: 0;
+      padding-left: 10px !important;
+      color: #fff;
+      text-transform: none;
+      font-weight: 300; }
+    ul#superfish-1 li.sf-item-2 ul li a:hover {
+      background: none;
+      margin: 0;
+      margin-top: 17px;
+      padding: 0;
+      color: #fff;
+      text-transform: none;
+      font-weight: 300; }
+    ul#superfish-1 li.sf-item-2 ul li a.active {
+      background: none;
+      margin: 0;
+      margin-top: 17px;
+      padding: 0;
+      color: #fff;
+      text-transform: none;
+      font-weight: 300; }
 
 /*# sourceMappingURL=global.css.map */
