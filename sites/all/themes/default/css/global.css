@@ -276,6 +276,18 @@ input[type="button"]:hover,
   width: 33.3%;
   float: left; }
 
+.block-bean-conference-vervolg {
+  width: 33.3%;
+  float: left; }
+
+.block-bean-about-us-vervolg {
+  width: 33.3%;
+  float: left; }
+
+.block-bean-magazine-vervolg {
+  width: 33.3%;
+  float: left; }
+
 .bean-cta {
   margin-bottom: 75px; }
   .bean-cta img {
@@ -446,6 +458,34 @@ h2 {
 .block-news-news-frontpage .view-footer {
   clear: both; }
 
+.block-news-news h2.block-title {
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 50px;
+  padding-bottom: 30px; }
+.block-news-news .views-row {
+  width: 33.3%;
+  float: left;
+  padding-right: 8%;
+  margin-bottom: 50px;
+  box-sizing: border-box; }
+  .block-news-news .views-row .views-field-field-image img {
+    margin: 0 0 10px 0; }
+  .block-news-news .views-row .views-field-title {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.500em;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .block-news-news .views-row .views-field-body p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.938em;
+    font-weight: 500; }
+.block-news-news .view-footer {
+  clear: both; }
+
 .zone-footer-wrapper {
   padding: 50px 0; }
   .zone-footer-wrapper h2.block-title {
@@ -469,5 +509,37 @@ h2 {
     font-size: 0.938em;
     font-weight: 500;
     text-align: left; }
+
+.block-projecten-block-1 .view-header {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 35px; }
+  .block-projecten-block-1 .view-header p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125em;
+    font-weight: 500;
+    text-align: center; }
+.block-projecten-block-1 .views-row {
+  width: 24.3%;
+  float: left;
+  padding-right: 13%;
+  margin-bottom: 50px; }
+.block-projecten-block-1 .views-row-last {
+  padding-right: 0; }
+.block-projecten-block-1 .views-field-field-image img {
+  margin: 0 0 10px 0; }
+.block-projecten-block-1 .views-field-title {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.500em;
+  font-weight: 700;
+  margin-bottom: 10px; }
+.block-projecten-block-1 .views-field-body p {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.938em;
+  font-weight: 500; }
 
 /*# sourceMappingURL=global.css.map */

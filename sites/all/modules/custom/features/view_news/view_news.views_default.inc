@@ -88,7 +88,7 @@ function view_news_views_default_views() {
   $handler = $view->new_display('block', 'Frontpage-Block', 'news_frontpage');
 
   /* Display: Vervolgpagina-Block */
-  $handler = $view->new_display('block', 'Vervolgpagina-Block', 'block_1');
+  $handler = $view->new_display('block', 'Vervolgpagina-Block', 'news');
   $translatables['news'] = array(
     t('Master'),
     t('News'),
