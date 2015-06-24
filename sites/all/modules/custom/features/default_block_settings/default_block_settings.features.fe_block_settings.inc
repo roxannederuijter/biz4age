@@ -44,7 +44,8 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'about-us-vervolg',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '<front>
+contact',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -96,7 +97,8 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'conference-vervolg',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '<front>
+contact',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -174,7 +176,8 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'magazine-vervolg',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '<front>
+contact',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -798,7 +801,8 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'news-news',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '<front>
+contact',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -903,7 +907,8 @@ function default_block_settings_default_fe_block_settings() {
     'module' => 'views',
     'node_types' => array(),
     'pages' => '<front>
-biz4age-projects',
+biz4age-projects
+contact',
     'roles' => array(),
     'themes' => array(
       'default' => array(
