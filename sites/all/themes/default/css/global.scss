@@ -478,7 +478,13 @@ h2 {
 }
 
 .zone-postscript-second-wrapper {
-  padding:50px 0;
+  padding:80px 0 0 0;
+}
+
+.front {
+  .zone-postscript-second-wrapper {
+    padding:50px 0;
+  }
 }
 
 .zone-postscript-third-wrapper {
@@ -636,6 +642,19 @@ h2 {
       font-family:$font;
       font-size:0.938em;
       font-weight:500;
+    }
+  }
+}
+
+.not-front {
+  .field-name-title {
+    h2 {
+      font-family: "Raleway", sans-serif;
+      font-size: 2.250em;
+      color: #000;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: left;
     }
   }
 }
