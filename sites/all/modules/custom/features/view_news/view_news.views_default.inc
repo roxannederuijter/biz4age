@@ -86,6 +86,9 @@ function view_news_views_default_views() {
 
   /* Display: Frontpage-Block */
   $handler = $view->new_display('block', 'Frontpage-Block', 'news_frontpage');
+
+  /* Display: Vervolgpagina-Block */
+  $handler = $view->new_display('block', 'Vervolgpagina-Block', 'block_1');
   $translatables['news'] = array(
     t('Master'),
     t('News'),
@@ -97,6 +100,7 @@ function view_news_views_default_views() {
     t('Desc'),
     t('<div class="button"><a class="button-light" href="/projecten">View all projects</a></div>'),
     t('Frontpage-Block'),
+    t('Vervolgpagina-Block'),
   );
   $export['news'] = $view;
 
