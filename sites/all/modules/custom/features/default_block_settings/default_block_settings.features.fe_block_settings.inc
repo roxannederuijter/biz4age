@@ -45,7 +45,8 @@ function default_block_settings_default_fe_block_settings() {
     'module' => 'bean',
     'node_types' => array(),
     'pages' => '<front>
-contact',
+contact
+about/biz4age-news',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -98,7 +99,8 @@ contact',
     'module' => 'bean',
     'node_types' => array(),
     'pages' => '<front>
-contact',
+contact
+about/biz4age-news',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -177,7 +179,8 @@ contact',
     'module' => 'bean',
     'node_types' => array(),
     'pages' => '<front>
-contact',
+contact
+about/biz4age-news',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -828,7 +831,8 @@ contact',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '<front>
-contact',
+contact
+about/biz4age-news',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -871,6 +875,32 @@ contact',
       ),
     ),
     'title' => 'Latest news',
+    'visibility' => 1,
+  );
+
+  $export['views-news-newspage'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'news-newspage',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'about/biz4age-news',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_third',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -934,7 +964,8 @@ contact',
     'node_types' => array(),
     'pages' => '<front>
 biz4age-projects
-contact',
+contact
+about/biz4age-news',
     'roles' => array(),
     'themes' => array(
       'default' => array(

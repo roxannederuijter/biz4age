@@ -89,6 +89,12 @@ function view_news_views_default_views() {
 
   /* Display: Vervolgpagina-Block */
   $handler = $view->new_display('block', 'Vervolgpagina-Block', 'news');
+
+  /* Display: newspage-Block */
+  $handler = $view->new_display('block', 'newspage-Block', 'newspage');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $translatables['news'] = array(
     t('Master'),
     t('News'),
@@ -101,6 +107,7 @@ function view_news_views_default_views() {
     t('<div class="button"><a class="button-light" href="/projecten">View all projects</a></div>'),
     t('Frontpage-Block'),
     t('Vervolgpagina-Block'),
+    t('newspage-Block'),
   );
   $export['news'] = $view;
 
