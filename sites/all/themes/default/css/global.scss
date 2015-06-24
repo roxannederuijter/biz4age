@@ -658,3 +658,36 @@ h2 {
     }
   }
 }
+
+.block-projecten-projects-page {
+  .views-row-odd {
+    background-color:$lightblue;
+    float:left;
+    padding:30px;
+  }
+  .views-row-even {
+    background-color:$blue;
+    float:left;
+    padding:30px;
+  }
+  .views-field-field-image {
+    width:22%;
+    float:left;
+    img {
+      float:left;
+    }
+  }
+  .views-field-title {
+    width:63%;
+    float:left;
+    font-size: 1.500em;
+    color: #fff;
+    font-weight: 700;
+  }
+  .views-field-body {
+    width:63%;
+    float:left;
+    color: #fff;
+    font-size: 0.938em;
+  }
+}

@@ -553,4 +553,29 @@ h2 {
   text-transform: uppercase;
   text-align: left; }
 
+.block-projecten-projects-page .views-row-odd {
+  background-color: #1ab7ea;
+  float: left;
+  padding: 30px; }
+.block-projecten-projects-page .views-row-even {
+  background-color: #4d87c5;
+  float: left;
+  padding: 30px; }
+.block-projecten-projects-page .views-field-field-image {
+  width: 22%;
+  float: left; }
+  .block-projecten-projects-page .views-field-field-image img {
+    float: left; }
+.block-projecten-projects-page .views-field-title {
+  width: 63%;
+  float: left;
+  font-size: 1.500em;
+  color: #fff;
+  font-weight: 700; }
+.block-projecten-projects-page .views-field-body {
+  width: 63%;
+  float: left;
+  color: #fff;
+  font-size: 0.938em; }
+
 /*# sourceMappingURL=global.css.map */
