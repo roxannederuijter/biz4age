@@ -902,7 +902,8 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'projecten-block_1',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '<front>
+projects',
     'roles' => array(),
     'themes' => array(
       'default' => array(
