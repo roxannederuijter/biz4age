@@ -591,7 +591,7 @@ h2 {
 .context-contact .zone-content-wrapper {
   background-color: #68c7e9;
   padding: 50px 0; }
-.context-contact h2 {
+.context-contact .field-name-title h2 {
   color: #fff;
   font-size: 24px;
   font-weight: 400; }
