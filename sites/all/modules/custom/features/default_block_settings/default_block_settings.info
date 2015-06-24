@@ -46,5 +46,6 @@ features[fe_block_settings][] = views-news-news_frontpage
 features[fe_block_settings][] = views-partners-block
 features[fe_block_settings][] = views-projecten-block
 features[fe_block_settings][] = views-projecten-block_1
+features[fe_block_settings][] = views-projecten-projects_page
 features[fe_block_settings][] = views-video_s-block
 features[features_api][] = api:2

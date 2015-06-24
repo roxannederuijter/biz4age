@@ -96,6 +96,10 @@ Our aim is to explore how to support independent living in ways that are life-en
 
   /* Display: Vervolgpagina's-Block */
   $handler = $view->new_display('block', 'Vervolgpagina\'s-Block', 'block_1');
+
+  /* Display: projects_page */
+  $handler = $view->new_display('block', 'projects_page', 'projects_page');
+  $handler->display->display_options['defaults']['footer'] = FALSE;
   $translatables['projecten'] = array(
     t('Master'),
     t('projecten'),
@@ -113,6 +117,7 @@ Our aim is to explore how to support independent living in ways that are life-en
     t('<div class="button"><a class="button" href="/projecten">View all projects</a></div>'),
     t('Frontpage-Block'),
     t('Vervolgpagina\'s-Block'),
+    t('projects_page'),
   );
   $export['projecten'] = $view;
 
