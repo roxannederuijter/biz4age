@@ -583,7 +583,8 @@ h2 {
   .zone-postscript-fourth-wrapper .zone-postscript-fourth {
     width: 100%; }
     .zone-postscript-fourth-wrapper .zone-postscript-fourth .region-postscript-fourth {
-      width: 100%; }
+      width: 100%;
+      margin: 0 auto; }
 
 .context-contact .zone-content-wrapper {
   background-color: #1ab7ea;

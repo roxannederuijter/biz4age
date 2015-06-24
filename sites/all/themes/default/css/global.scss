@@ -694,10 +694,12 @@ h2 {
 
 .zone-postscript-fourth-wrapper {
   width:100%;
+  box-shadow: 0px 10px 20px -5px #888888;
   .zone-postscript-fourth {
     width:100%;
     .region-postscript-fourth {
       width:100%;
+      margin:0 auto;
     }
   }
 }
