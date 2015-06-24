@@ -38,6 +38,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['bean-about-us-vervolg'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'about-us-vervolg',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['bean-conference'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -62,6 +88,32 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['bean-conference-vervolg'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'conference-vervolg',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
   );
 
   $export['bean-frontpage-banner'] = array(
@@ -114,6 +166,32 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['bean-magazine-vervolg'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'magazine-vervolg',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
   );
 
   $export['block-footer_contact'] = array(
@@ -714,6 +792,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['views-news-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'news-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_third',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Latest news',
+    'visibility' => 0,
+  );
+
   $export['views-news-news_frontpage'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -790,6 +894,32 @@ function default_block_settings_default_fe_block_settings() {
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['views-projecten-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'projecten-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
   );
 
   $export['views-video_s-block'] = array(
