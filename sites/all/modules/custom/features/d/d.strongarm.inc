@@ -126,7 +126,7 @@ function d_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'language_count';
-  $strongarm->value = 2;
+  $strongarm->value = 1;
   $export['language_count'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -134,17 +134,17 @@ function d_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'language_default';
   $strongarm->value = (object) array(
-    'language' => 'nl',
-    'name' => 'Dutch',
-    'native' => 'Nederlands',
+    'language' => 'en',
+    'name' => 'English',
+    'native' => 'English',
     'direction' => '0',
-    'enabled' => '1',
-    'plurals' => '2',
-    'formula' => '($n!=1)',
+    'enabled' => 1,
+    'plurals' => '0',
+    'formula' => '',
     'domain' => '',
-    'prefix' => 'nl',
+    'prefix' => 'en',
     'weight' => '0',
-    'javascript' => 'NnOK_ISKQr5dmVwWUE2tSD7VtMCJ3V0yYBQUMeiMYqc',
+    'javascript' => '',
   );
   $export['language_default'] = $strongarm;
 

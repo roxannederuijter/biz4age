@@ -24,20 +24,14 @@ function view_partners_views_default_views() {
   $handler = $view->new_display('default', 'Master', 'default');
   $handler->display->display_options['title'] = 'partners';
   $handler->display->display_options['use_more_always'] = FALSE;
-  $handler->display->display_options['use_more_text'] = 'meer';
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
-  $handler->display->display_options['exposed_form']['options']['submit_button'] = 'Toepassen';
-  $handler->display->display_options['exposed_form']['options']['reset_button_label'] = 'Opnieuw instellen';
-  $handler->display->display_options['exposed_form']['options']['exposed_sorts_label'] = 'Sorteren op';
-  $handler->display->display_options['exposed_form']['options']['sort_asc_label'] = 'Oplopend';
-  $handler->display->display_options['exposed_form']['options']['sort_desc_label'] = 'Aflopend';
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Kop: Algemeen: Ongefilterde tekst */
+  /* Header: Global: Unfiltered text */
   $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
@@ -46,7 +40,7 @@ function view_partners_views_default_views() {
 <p>Biz4Age is a ‘cluster’ project led by Anglia Ruskin University. It brings together partners 
 from two previous INTERREG IVA projects, “CURA-B” and “2 Seas Trade”, plus other organisations
  that want to create regional economic growth through healthy ageing initiatives.</p>';
-  /* Veld: Inhoud: Logo */
+  /* Field: Content: Logo */
   $handler->display->display_options['fields']['field_logo']['id'] = 'field_logo';
   $handler->display->display_options['fields']['field_logo']['table'] = 'field_data_field_logo';
   $handler->display->display_options['fields']['field_logo']['field'] = 'field_logo';
@@ -56,19 +50,19 @@ from two previous INTERREG IVA projects, “CURA-B” and “2 Seas Trade”, pl
   $handler->display->display_options['fields']['field_logo']['settings'] = array(
     'image_style' => 'partner',
   );
-  /* Sorteercriterium: Inhoud: Datum van inzending */
+  /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
-  /* Filtercriterium: Inhoud: Gepubliceerd */
+  /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
   $handler->display->display_options['filters']['status']['value'] = 1;
   $handler->display->display_options['filters']['status']['group'] = 1;
   $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
-  /* Filtercriterium: Inhoud: Type */
+  /* Filter criterion: Content: Type */
   $handler->display->display_options['filters']['type']['id'] = 'type';
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
@@ -81,12 +75,12 @@ from two previous INTERREG IVA projects, “CURA-B” and “2 Seas Trade”, pl
   $translatables['partners'] = array(
     t('Master'),
     t('partners'),
-    t('meer'),
-    t('Toepassen'),
-    t('Opnieuw instellen'),
-    t('Sorteren op'),
-    t('Oplopend'),
-    t('Aflopend'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
     t('<h2>Our trusted partners </h2>
 
 <p>Biz4Age is a ‘cluster’ project led by Anglia Ruskin University. It brings together partners 

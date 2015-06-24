@@ -18,7 +18,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'about-us',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -44,7 +44,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'conference',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -70,7 +70,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'frontpage-banner',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -96,7 +96,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'magazine',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -720,7 +720,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'news-news_frontpage',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -746,7 +746,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'partners-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -772,7 +772,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'projecten-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -798,7 +798,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'video_s-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'default' => array(
