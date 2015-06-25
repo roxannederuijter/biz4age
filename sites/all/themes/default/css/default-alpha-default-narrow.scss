@@ -205,6 +205,28 @@ iframe.media-youtube-player {
   }
 }
 
+.block-news-newspage {
+  .views-row {
+    width: 33.3%;
+    float: left;
+    padding: 0 4%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    .views-field-field-image {
+      img {
+        margin: 0 0 10px 0;
+        margin:0 0 0 0;
+      }
+    }
+    .views-field-title {
+      text-align:left;
+    }
+    .views-field-body p {
+      text-align:left;
+    }
+  }
+}
+
 .block-views-partners-partner-block {
   .views-field-field-logo {
     width:20%;
