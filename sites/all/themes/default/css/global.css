@@ -223,9 +223,13 @@ input[type="button"]:hover,
       height: auto;
       display: block;
       margin: 0 auto;
-      padding: 75px 0 0 35px;
+      padding: 75px 0 0 0px;
       box-shadow: 0px 10px 20px -5px #888888;
       margin-bottom: 80px; }
+      #zone-header #region-header-first .block-bean-frontpage-banner .paragraphs-item-1-kolom-tekst {
+        width: 80%;
+        margin: 0 auto;
+        float: none; }
       #zone-header #region-header-first .block-bean-frontpage-banner h3 {
         font-family: "Raleway", sans-serif;
         color: #fff;

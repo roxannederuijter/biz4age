@@ -219,12 +219,17 @@ input[type="button"]:hover,
     width: 100%;
     margin: 0 auto;
     .block-bean-frontpage-banner {
+      .paragraphs-item-1-kolom-tekst {
+        width:80%;
+        margin:0 auto;
+        float:none;
+      }
       background-image:url('img/bg.png');
       max-width: 100%;
       height: auto;
       display: block;
       margin: 0 auto;
-      padding: 75px 0 0 35px;
+      padding: 75px 0 0 0px;
       box-shadow: 0px 10px 20px -5px #888888;
       margin-bottom:80px;
       h3 {
