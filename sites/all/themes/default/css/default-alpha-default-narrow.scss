@@ -247,3 +247,28 @@ iframe.media-youtube-player {
   }
 }
 
+.block-projecten-projects-page {
+  .views-field-field-image {
+    width:22%;
+    float:left;
+    img {
+      float:left;
+    }
+  }
+  .views-field-title {
+    width:63%;
+    float:left;
+    font-size: 1.500em;
+    color: #fff;
+    font-weight: 700;
+    text-align:left;
+  }
+  .views-field-body {
+    width:63%;
+    float:left;
+    color: #fff;
+    font-size: 0.938em;
+    text-align:left;
+  }
+}
+

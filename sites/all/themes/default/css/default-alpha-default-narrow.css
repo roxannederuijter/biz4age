@@ -191,4 +191,23 @@ iframe.media-youtube-player {
   float: left;
   text-align: left; }
 
+.block-projecten-projects-page .views-field-field-image {
+  width: 22%;
+  float: left; }
+  .block-projecten-projects-page .views-field-field-image img {
+    float: left; }
+.block-projecten-projects-page .views-field-title {
+  width: 63%;
+  float: left;
+  font-size: 1.500em;
+  color: #fff;
+  font-weight: 700;
+  text-align: left; }
+.block-projecten-projects-page .views-field-body {
+  width: 63%;
+  float: left;
+  color: #fff;
+  font-size: 0.938em;
+  text-align: left; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

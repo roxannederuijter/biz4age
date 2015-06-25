@@ -609,21 +609,23 @@ h2 {
   float: left;
   padding: 30px; }
 .block-projecten-projects-page .views-field-field-image {
-  width: 22%;
+  width: 100%;
   float: left; }
   .block-projecten-projects-page .views-field-field-image img {
-    float: left; }
+    float: none; }
 .block-projecten-projects-page .views-field-title {
-  width: 63%;
+  width: 100%;
   float: left;
   font-size: 1.500em;
   color: #fff;
-  font-weight: 700; }
+  font-weight: 700;
+  text-align: center; }
 .block-projecten-projects-page .views-field-body {
   width: 63%;
   float: left;
   color: #fff;
-  font-size: 0.938em; }
+  font-size: 0.938em;
+  text-align: center; }
 
 .zone-postscript-fourth-wrapper {
   width: 100%; }
