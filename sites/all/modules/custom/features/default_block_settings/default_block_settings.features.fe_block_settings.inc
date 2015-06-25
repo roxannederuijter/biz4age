@@ -930,6 +930,32 @@ about/biz4age-news',
     'visibility' => 1,
   );
 
+  $export['views-partners-partner_block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'partners-partner_block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'about/biz4age-partners',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-projecten-block'] = array(
     'cache' => -1,
     'custom' => 0,
