@@ -91,9 +91,17 @@ function views_projecten_views_default_views() {
 
   /* Display: Frontpage-Block */
   $handler = $view->new_display('block', 'Frontpage-Block', 'block');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '3';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
 
   /* Display: Vervolgpagina's-Block */
   $handler = $view->new_display('block', 'Vervolgpagina\'s-Block', 'block_1');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '3';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
 
   /* Display: projects_page */
   $handler = $view->new_display('block', 'projects_page', 'projects_page');
