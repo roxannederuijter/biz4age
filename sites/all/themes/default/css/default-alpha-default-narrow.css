@@ -170,9 +170,11 @@ iframe.media-youtube-player {
     float: left; }
 .block-views-partners-partner-block .views-field-title {
   width: 70%;
-  float: left; }
+  float: left;
+  text-align: left; }
 .block-views-partners-partner-block .views-field-body {
   width: 70%;
-  float: left; }
+  float: left;
+  text-align: left; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
