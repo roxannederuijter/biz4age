@@ -567,25 +567,27 @@ h2 {
     font-weight: 400;
     text-align: center; }
 .block-projecten-block-1 .views-row {
-  width: 24.3%;
+  width: 100%;
   float: left;
-  padding-right: 13%;
   margin-bottom: 50px; }
 .block-projecten-block-1 .views-row-last {
   padding-right: 0; }
 .block-projecten-block-1 .views-field-field-image img {
-  margin: 0 0 10px 0; }
+  margin: 0 0 10px 0;
+  margin: 0 auto; }
 .block-projecten-block-1 .views-field-title {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 1.500em;
   font-weight: 600;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  text-align: center; }
 .block-projecten-block-1 .views-field-body p {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 0.938em;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
 
 .not-front .field-name-title h2 {
   font-family: "Raleway", sans-serif;

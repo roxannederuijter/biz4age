@@ -80,6 +80,19 @@
 .zone-preface-second-wrapper .block-projecten-block .views-field-body p {
   text-align: left; }
 
+.block-projecten-block-1 .views-row {
+  width: 24.3%;
+  float: left;
+  padding: 0 4%;
+  margin-bottom: 50px; }
+.block-projecten-block-1 .views-field-field-image img {
+  margin: 0 0 10px 0;
+  margin: 0 0 0 0; }
+.block-projecten-block-1 .views-field-title {
+  text-align: left; }
+.block-projecten-block-1 .views-field-body p {
+  text-align: left; }
+
 .block-news-news-frontpage .views-row {
   width: 33.3%;
   float: left;

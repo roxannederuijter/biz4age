@@ -677,9 +677,8 @@ h2 {
     }
   }
   .views-row {
-    width: 24.3%;
+    width: 100%;
     float: left;
-    padding-right: 13%;
     margin-bottom:50px;
   }
   .views-row-last {
@@ -688,6 +687,7 @@ h2 {
   .views-field-field-image {
     img {
       margin:0 0 10px 0;
+      margin: 0 auto;
     }
   }
   .views-field-title {
@@ -696,6 +696,7 @@ h2 {
     font-size:1.500em;
     font-weight:600;
     margin-bottom:10px;
+    text-align:center;
   }
   .views-field-body {
     p {
@@ -703,6 +704,7 @@ h2 {
       font-family:$font;
       font-size:0.938em;
       font-weight:400;
+      text-align:center;
     }
   }
 }
