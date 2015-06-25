@@ -56,6 +56,15 @@
     .views-field-field-image {
       img {
         margin:0 0 10px 0;
+        margin:0 0 0 0;
+      }
+    }
+    .views-field-title {
+      text-align:left;
+    }
+    .views-field-body {
+      p {
+        text-align:left;
       }
     }
   }

@@ -329,18 +329,21 @@ input[type="button"]:hover,
   .zone-preface-second-wrapper .block-projecten-block .views-row-last {
     padding-right: 0; }
   .zone-preface-second-wrapper .block-projecten-block .views-field-field-image img {
-    margin: 0 0 10px 0; }
+    margin: 0 0 10px 0;
+    margin: 0 auto; }
   .zone-preface-second-wrapper .block-projecten-block .views-field-title {
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-size: 1.500em;
     font-weight: 600;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    text-align: center; }
   .zone-preface-second-wrapper .block-projecten-block .views-field-body p {
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-size: 0.938em;
-    font-weight: 400; }
+    font-weight: 400;
+    text-align: center; }
 
 h2 {
   font-family: "Raleway", sans-serif;
