@@ -230,7 +230,8 @@ input[type="button"]:hover,
         width: 80%;
         margin: 0 auto;
         float: none; }
-      #zone-header #region-header-first .block-bean-frontpage-banner h3 {
+      #zone-header #region-header-first .block-bean-frontpage-banner background-size:cover
+      h3 {
         font-family: "Raleway", sans-serif;
         color: #fff;
         font-size: 1.875em;
