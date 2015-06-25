@@ -288,16 +288,19 @@ input[type="button"]:hover,
   margin-bottom: 40px; }
 
 .block-bean-conference-vervolg {
-  width: 33.3%;
-  float: left; }
+  width: 100%;
+  float: left;
+  margin-bottom: 40px; }
 
 .block-bean-about-us-vervolg {
-  width: 33.3%;
-  float: left; }
+  width: 100%;
+  float: left;
+  margin-bottom: 40px; }
 
 .block-bean-magazine-vervolg {
-  width: 33.3%;
-  float: left; }
+  width: 100%;
+  float: left;
+  margin-bottom: 40px; }
 
 .bean-cta img {
   width: 40%;
