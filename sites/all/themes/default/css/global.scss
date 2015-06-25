@@ -901,3 +901,29 @@ ul#superfish-1 li.sf-item-2{
     height: 62px;
   }
 }
+
+.block-conferences-conferences-pdf {
+  .views-row {
+    float:left;
+    .views-field-field-download-button {
+      width:50%;
+    }
+    .views-field-field-pdf-download {
+      width:50%;
+      .field-content {
+        text-align:center;
+      }
+      span.file {
+        img {
+           display:none;
+        }
+        a {
+          color:#fff;
+        }
+      }
+      span.file-size {
+        display:none;
+      }
+    }
+  }
+}

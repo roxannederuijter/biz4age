@@ -740,4 +740,19 @@ ul#superfish-1 li.sf-item-2 ul {
   width: 40px;
   height: 62px; }
 
+.block-conferences-conferences-pdf .views-row {
+  float: left; }
+  .block-conferences-conferences-pdf .views-row .views-field-field-download-button {
+    width: 50%; }
+  .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download {
+    width: 50%; }
+    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download .field-content {
+      text-align: center; }
+    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file img {
+      display: none; }
+    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file a {
+      color: #fff; }
+    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file-size {
+      display: none; }
+
 /*# sourceMappingURL=global.css.map */

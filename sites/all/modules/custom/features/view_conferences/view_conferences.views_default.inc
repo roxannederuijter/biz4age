@@ -119,6 +119,7 @@ function view_conferences_views_default_views() {
   $handler->display->display_options['fields']['field_download_button']['label'] = '';
   $handler->display->display_options['fields']['field_download_button']['alter']['make_link'] = TRUE;
   $handler->display->display_options['fields']['field_download_button']['alter']['path'] = '[field_pdf_download]';
+  $handler->display->display_options['fields']['field_download_button']['alter']['absolute'] = TRUE;
   $handler->display->display_options['fields']['field_download_button']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_download_button']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_download_button']['settings'] = array(
@@ -130,12 +131,11 @@ function view_conferences_views_default_views() {
   $handler->display->display_options['fields']['field_pdf_download']['table'] = 'field_data_field_pdf_download';
   $handler->display->display_options['fields']['field_pdf_download']['field'] = 'field_pdf_download';
   $handler->display->display_options['fields']['field_pdf_download']['label'] = '';
-  $handler->display->display_options['fields']['field_pdf_download']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_pdf_download']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_pdf_download']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_pdf_download']['type'] = 'file_url_plain';
+  $handler->display->display_options['fields']['field_pdf_download']['type'] = 'file_download_link';
   $handler->display->display_options['fields']['field_pdf_download']['settings'] = array(
-    'text' => 'Download [file:name]',
+    'text' => 'Download Programme >',
   );
   $translatables['conferences'] = array(
     t('Master'),
