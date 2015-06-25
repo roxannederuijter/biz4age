@@ -710,16 +710,18 @@ ul#superfish-1 li.sf-item-2 ul {
   float: left;
   margin-bottom: 30px; }
 .block-views-partners-partner-block .views-field-field-logo {
-  width: 20%;
+  width: 100%;
   float: left; }
   .block-views-partners-partner-block .views-field-field-logo img {
-    float: left; }
+    float: none; }
 .block-views-partners-partner-block .views-field-title {
-  width: 70%;
-  float: left; }
+  width: 100%;
+  float: none;
+  text-align: center; }
 .block-views-partners-partner-block .views-field-body {
-  width: 70%;
-  float: left; }
+  width: 100%;
+  float: none;
+  text-align: center; }
 
 .view-display-id-conferences_slideshow_block .views-row {
   width: 31%;

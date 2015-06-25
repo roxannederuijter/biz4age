@@ -866,19 +866,21 @@ ul#superfish-1 li.sf-item-2{
     margin-bottom: 30px;
   }
   .views-field-field-logo {
-    width:20%;
+    width:100%;
     float:left;
     img {
-      float:left;
+      float:none;
     }
   }
   .views-field-title {
-    width:70%;
-    float:left;
+    width:100%;
+    float:none;
+    text-align:center;
   }
   .views-field-body {
-    width:70%;
-    float:left;
+    width:100%;
+    float:none;
+    text-align:center;
   }
 }
 
