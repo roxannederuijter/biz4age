@@ -37,9 +37,7 @@ function views_projecten_views_default_views() {
   $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
   $handler->display->display_options['header']['area_text_custom']['content'] = '<h2>Our projects</h2>
 
-<p>In Phase 2 (March 2015 – September 2015) we are conducting 3 projects. 
-Our aim is to explore how to support independent living in ways that are life-enhancing and fulfilling
- for residents and their families and careers at the same time as creating regional economic growth. </p>';
+<p>From March – September 2015, Biz4Age is undertaking 3 projects: ROOMforLIFE; Vital Living Environment; Co-Creating Solutions for Independent Living. Our focus in these projects is on independent living. Our aim is to explore how to design and build homes and neighbourhoods that truly meet the needs of residents at the same time as enhancing the local economy. In particular we explore the transferability of the Zeeland Living Room approach to new contexts and regions.  </p>';
   /* Footer: Global: Unfiltered text */
   $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
@@ -139,9 +137,7 @@ Our aim is to explore how to support independent living in ways that are life-en
     t('Desc'),
     t('<h2>Our projects</h2>
 
-<p>In Phase 2 (March 2015 – September 2015) we are conducting 3 projects. 
-Our aim is to explore how to support independent living in ways that are life-enhancing and fulfilling
- for residents and their families and careers at the same time as creating regional economic growth. </p>'),
+<p>From March – September 2015, Biz4Age is undertaking 3 projects: ROOMforLIFE; Vital Living Environment; Co-Creating Solutions for Independent Living. Our focus in these projects is on independent living. Our aim is to explore how to design and build homes and neighbourhoods that truly meet the needs of residents at the same time as enhancing the local economy. In particular we explore the transferability of the Zeeland Living Room approach to new contexts and regions.  </p>'),
     t('<div class="button"><a class="button" href="/projecten">View all projects</a></div>'),
     t('Frontpage-Block'),
     t('Vervolgpagina\'s-Block'),
