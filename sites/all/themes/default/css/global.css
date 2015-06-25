@@ -480,7 +480,8 @@ h2 {
   margin-bottom: 50px;
   box-sizing: border-box; }
   .block-news-news .views-row .views-field-field-image img {
-    margin: 0 0 10px 0; }
+    margin: 0 0 10px 0;
+    margin: 0 auto; }
   .block-news-news .views-row .views-field-title {
     color: #fff;
     font-family: "Raleway", sans-serif;
