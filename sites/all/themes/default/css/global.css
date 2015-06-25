@@ -289,16 +289,14 @@ input[type="button"]:hover,
   width: 33.3%;
   float: left; }
 
-.bean-cta {
-  margin-bottom: 75px; }
-  .bean-cta img {
-    width: 40%;
-    margin-bottom: 20px; }
-  .bean-cta .field-name-field-ondertitel {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    font-size: 1.125em;
-    font-weight: 500; }
+.bean-cta img {
+  width: 40%;
+  margin-bottom: 20px; }
+.bean-cta .field-name-field-ondertitel {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500; }
 
 .zone-preface-second-wrapper {
   background-color: #68c7e9;
@@ -424,7 +422,12 @@ h2 {
   box-shadow: 0px 10px 20px -5px #888888; }
 
 .zone-postscript-second-wrapper {
-  padding: 80px 0 0 0; }
+  padding: 50px 0; }
+  .zone-postscript-second-wrapper h2 {
+    color: #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 66px;
+    padding-bottom: 20px; }
 
 .front .zone-postscript-second-wrapper {
   padding: 50px 0; }
@@ -718,7 +721,7 @@ ul#superfish-1 li.sf-item-2 ul {
 .view-display-id-conferences_slideshow_block .views-slideshow-controls-text-previous {
   display: block;
   position: absolute;
-  top: 32%;
+  top: 56%;
   left: 0px;
   z-index: 100;
   background: url("img/dark-arrowleft.png") no-repeat center;
@@ -731,7 +734,7 @@ ul#superfish-1 li.sf-item-2 ul {
 .view-display-id-conferences_slideshow_block .views-slideshow-controls-text-next {
   display: block;
   position: absolute;
-  top: 32%;
+  top: 56%;
   right: 0px;
   z-index: 100;
   text-indent: -9999px;
@@ -754,5 +757,29 @@ ul#superfish-1 li.sf-item-2 ul {
       color: #fff; }
     .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file-size {
       display: none; }
+
+.block-video-s-block-1 h2 {
+  border-bottom: 1px solid #fff;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+.block-video-s-block-1 .view-video-s .views-field-title {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+.block-video-s-block-1 .view-video-s .views-field-body {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  width: 65%;
+  margin: 0 auto; }
+.block-video-s-block-1 .view-video-s .views-field-field-video {
+  text-align: center;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=global.css.map */
