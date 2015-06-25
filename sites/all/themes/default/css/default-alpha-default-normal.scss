@@ -2,3 +2,11 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 @import 'variables';
+
+.views-slideshow-controls-text-previous {
+  left: 0px;
+}
+
+.views-slideshow-controls-text-next {
+  right: 0px;
+}
