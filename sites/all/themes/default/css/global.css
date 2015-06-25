@@ -243,6 +243,9 @@ input[type="button"]:hover,
 .logo-img img {
   width: 65%; }
 
+.view-projecten .view-footer {
+  clear: both; }
+
 .button {
   text-align: center;
   margin: 60px 0; }
