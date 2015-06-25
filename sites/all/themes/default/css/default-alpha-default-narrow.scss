@@ -71,13 +71,6 @@
 }
 
 .block-news-news-frontpage {
-  h2.block-title {
-    width: 60%;
-    margin: 0 auto;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 50px;
-    padding-bottom: 30px;
-  }
   .views-row {
     width: 33.3%;
     float: left;
@@ -91,23 +84,22 @@
       }
     }
     .views-field-title {
-      color: #fff;
-      font-family: "Raleway", sans-serif;
-      font-size: 1.500em;
-      font-weight: 600;
-      margin-bottom: 10px;
       text-align:left;
     }
     .views-field-body p {
-      color: #fff;
-      font-family: "Raleway", sans-serif;
-      font-size: 0.938em;
-      font-weight: 400;
       text-align:left;
     }
   }
-  .view-footer {
-    clear: both;
+}
+
+.front {
+  .view-partners {
+    .views-field-field-logo {
+      width:33.3%;
+      float:left;
+      height:130px;
+      margin-bottom:30px;
+    }
   }
 }
 
