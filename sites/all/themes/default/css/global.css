@@ -323,9 +323,8 @@ input[type="button"]:hover,
       font-weight: 400;
       text-align: center; }
   .zone-preface-second-wrapper .block-projecten-block .views-row {
-    width: 24.3%;
+    width: 100%;
     float: left;
-    padding: 0 5%;
     margin-bottom: 50px; }
   .zone-preface-second-wrapper .block-projecten-block .views-row-last {
     padding-right: 0; }
