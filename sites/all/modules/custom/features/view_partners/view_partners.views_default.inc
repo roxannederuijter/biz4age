@@ -41,9 +41,7 @@ function view_partners_views_default_views() {
   $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
   $handler->display->display_options['header']['area_text_custom']['content'] = '<h2>Our trusted partners </h2>
 
-<p>Biz4Age is a ‘cluster’ project led by Anglia Ruskin University. It brings together partners 
-from two previous INTERREG IVA projects, “CURA-B” and “2 Seas Trade”, plus other organisations
- that want to create regional economic growth through healthy ageing initiatives.</p>';
+<p>Biz4Age is a ‘cluster’ project led by Anglia Ruskin University. It brings together partners from two previous INTERREG IVA projects, “CURA-B” and “2 Seas Trade”, plus other organisations and initiatives that want to combine healthy ageing and independent living initiatives with the creation of regional economic growth. </p>';
   /* Field: Content: Logo */
   $handler->display->display_options['fields']['field_logo']['id'] = 'field_logo';
   $handler->display->display_options['fields']['field_logo']['table'] = 'field_data_field_logo';
@@ -125,9 +123,7 @@ from two previous INTERREG IVA projects, “CURA-B” and “2 Seas Trade”, pl
     t('last »'),
     t('<h2>Our trusted partners </h2>
 
-<p>Biz4Age is a ‘cluster’ project led by Anglia Ruskin University. It brings together partners 
-from two previous INTERREG IVA projects, “CURA-B” and “2 Seas Trade”, plus other organisations
- that want to create regional economic growth through healthy ageing initiatives.</p>'),
+<p>Biz4Age is a ‘cluster’ project led by Anglia Ruskin University. It brings together partners from two previous INTERREG IVA projects, “CURA-B” and “2 Seas Trade”, plus other organisations and initiatives that want to combine healthy ageing and independent living initiatives with the creation of regional economic growth. </p>'),
     t('Frontpage-Block'),
     t('Partnerpage-Block'),
   );
