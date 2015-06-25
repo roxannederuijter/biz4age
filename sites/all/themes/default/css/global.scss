@@ -807,7 +807,7 @@ ul#superfish-1 li.sf-item-2{
         margin: 0;
         margin-top:17px;
         padding: 0;
-        padding-left:10px!important;s
+        padding-left:10px!important;
         color: #fff;
         text-transform: none;
         font-weight:300;
@@ -831,5 +831,29 @@ ul#superfish-1 li.sf-item-2{
         font-weight:300;
       }
     }
+  }
+}
+
+
+.block-views-partners-partner-block {
+  .views-row {
+    border-bottom:1px solid #ddd;
+    float:left;
+    margin-bottom: 30px;
+  }
+  .views-field-field-logo {
+    width:20%;
+    float:left;
+    img {
+      float:left;
+    }
+  }
+  .views-field-title {
+    width:70%;
+    float:left;
+  }
+  .views-field-body {
+    width:70%;
+    float:left;
   }
 }

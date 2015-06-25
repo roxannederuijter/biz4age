@@ -690,4 +690,20 @@ ul#superfish-1 li.sf-item-2 ul {
       text-transform: none;
       font-weight: 300; }
 
+.block-views-partners-partner-block .views-row {
+  border-bottom: 1px solid #ddd;
+  float: left;
+  margin-bottom: 30px; }
+.block-views-partners-partner-block .views-field-field-logo {
+  width: 20%;
+  float: left; }
+  .block-views-partners-partner-block .views-field-field-logo img {
+    float: left; }
+.block-views-partners-partner-block .views-field-title {
+  width: 70%;
+  float: left; }
+.block-views-partners-partner-block .views-field-body {
+  width: 70%;
+  float: left; }
+
 /*# sourceMappingURL=global.css.map */
