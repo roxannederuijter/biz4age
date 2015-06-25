@@ -827,18 +827,18 @@ about/biz4age-conference',
     'visibility' => 0,
   );
 
-  $export['views-conferences-block_1'] = array(
+  $export['views-conferences-conferences_pdf'] = array(
     'cache' => -1,
     'custom' => 0,
-    'delta' => 'conferences-block_1',
+    'delta' => 'conferences-conferences_pdf',
     'module' => 'views',
     'node_types' => array(),
     'pages' => 'about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'postscript_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),

@@ -109,22 +109,34 @@ function view_conferences_views_default_views() {
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
 
-  /* Display: Conferences body */
-  $handler = $view->new_display('block', 'Conferences body', 'block_1');
+  /* Display: Conferences_pdf */
+  $handler = $view->new_display('block', 'Conferences_pdf', 'conferences_pdf');
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Title */
-  $handler->display->display_options['fields']['title']['id'] = 'title';
-  $handler->display->display_options['fields']['title']['table'] = 'node';
-  $handler->display->display_options['fields']['title']['field'] = 'title';
-  $handler->display->display_options['fields']['title']['label'] = '';
-  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
-  /* Field: Content: Body */
-  $handler->display->display_options['fields']['body']['id'] = 'body';
-  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
-  $handler->display->display_options['fields']['body']['field'] = 'body';
-  $handler->display->display_options['fields']['body']['label'] = '';
-  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  /* Field: Content: download button */
+  $handler->display->display_options['fields']['field_download_button']['id'] = 'field_download_button';
+  $handler->display->display_options['fields']['field_download_button']['table'] = 'field_data_field_download_button';
+  $handler->display->display_options['fields']['field_download_button']['field'] = 'field_download_button';
+  $handler->display->display_options['fields']['field_download_button']['label'] = '';
+  $handler->display->display_options['fields']['field_download_button']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['field_download_button']['alter']['path'] = '[field_pdf_download]';
+  $handler->display->display_options['fields']['field_download_button']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_download_button']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_download_button']['settings'] = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  /* Field: Content: pdf download */
+  $handler->display->display_options['fields']['field_pdf_download']['id'] = 'field_pdf_download';
+  $handler->display->display_options['fields']['field_pdf_download']['table'] = 'field_data_field_pdf_download';
+  $handler->display->display_options['fields']['field_pdf_download']['field'] = 'field_pdf_download';
+  $handler->display->display_options['fields']['field_pdf_download']['label'] = '';
+  $handler->display->display_options['fields']['field_pdf_download']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_pdf_download']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_pdf_download']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_pdf_download']['type'] = 'file_url_plain';
+  $handler->display->display_options['fields']['field_pdf_download']['settings'] = array(
+    'text' => 'Download [file:name]',
+  );
   $translatables['conferences'] = array(
     t('Master'),
     t('Conferences'),
@@ -135,7 +147,7 @@ function view_conferences_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('Conferences slideshow'),
-    t('Conferences body'),
+    t('Conferences_pdf'),
   );
   $export['conferences'] = $view;
 
