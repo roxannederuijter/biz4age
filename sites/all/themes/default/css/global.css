@@ -315,7 +315,7 @@ input[type="button"]:hover,
   .zone-preface-second-wrapper .block-projecten-block .views-row {
     width: 24.3%;
     float: left;
-    padding-right: 13%;
+    padding: 0 5%;
     margin-bottom: 50px; }
   .zone-preface-second-wrapper .block-projecten-block .views-row-last {
     padding-right: 0; }
@@ -451,7 +451,7 @@ h2 {
 .block-news-news-frontpage .views-row {
   width: 33.3%;
   float: left;
-  padding-right: 8%;
+  padding: 0 4%;
   margin-bottom: 50px;
   box-sizing: border-box; }
   .block-news-news-frontpage .views-row .views-field-field-image img {
