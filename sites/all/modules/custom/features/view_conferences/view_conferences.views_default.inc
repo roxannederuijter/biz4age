@@ -39,7 +39,7 @@ function view_conferences_views_default_views() {
   $handler->display->display_options['fields']['field_photos']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_photos']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_photos']['settings'] = array(
-    'image_style' => 'thumbnail',
+    'image_style' => '',
     'image_link' => '',
   );
   $handler->display->display_options['fields']['field_photos']['group_rows'] = FALSE;
