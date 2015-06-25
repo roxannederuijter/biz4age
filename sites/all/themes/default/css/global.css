@@ -273,16 +273,19 @@ input[type="button"]:hover,
     padding: 24px 50px; }
 
 .block-bean-conference {
-  width: 33.3%;
-  float: left; }
+  width: 100%;
+  float: left;
+  margin-bottom: 40px; }
 
 .block-bean-about-us {
-  width: 33.3%;
-  float: left; }
+  width: 100%;
+  float: left;
+  margin-bottom: 40px; }
 
 .block-bean-magazine {
-  width: 33.3%;
-  float: left; }
+  width: 100%;
+  float: left;
+  margin-bottom: 40px; }
 
 .block-bean-conference-vervolg {
   width: 33.3%;
