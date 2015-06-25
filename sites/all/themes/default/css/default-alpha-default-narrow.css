@@ -125,6 +125,17 @@ iframe.media-youtube-player {
   padding: 24px 50px; }
 
 .block-news-news .views-row {
-  float: left; }
+  width: 33.3%;
+  float: left;
+  padding: 0 4%;
+  margin-bottom: 50px;
+  box-sizing: border-box; }
+  .block-news-news .views-row .views-field-field-image img {
+    margin: 0 0 10px 0;
+    margin: 0 0 0 0; }
+  .block-news-news .views-row .views-field-title {
+    text-align: left; }
+  .block-news-news .views-row .views-field-body p {
+    text-align: left; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
