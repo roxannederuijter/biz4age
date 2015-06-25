@@ -46,7 +46,8 @@ function default_block_settings_default_fe_block_settings() {
     'node_types' => array(),
     'pages' => '<front>
 contact
-about/biz4age-news',
+about/biz4age-news
+about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -100,7 +101,8 @@ about/biz4age-news',
     'node_types' => array(),
     'pages' => '<front>
 contact
-about/biz4age-news',
+about/biz4age-news
+about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -180,7 +182,8 @@ about/biz4age-news',
     'node_types' => array(),
     'pages' => '<front>
 contact
-about/biz4age-news',
+about/biz4age-news
+about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -824,6 +827,58 @@ about/biz4age-news',
     'visibility' => 0,
   );
 
+  $export['views-conferences-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'conferences-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'about/biz4age-conference',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['views-eacf4df3f723a13c79c223e40b8e6ded'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'eacf4df3f723a13c79c223e40b8e6ded',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'about/biz4age-conference',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Conference photos',
+    'visibility' => 1,
+  );
+
   $export['views-news-news'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -832,7 +887,8 @@ about/biz4age-news',
     'node_types' => array(),
     'pages' => '<front>
 contact
-about/biz4age-news',
+about/biz4age-news
+about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -991,7 +1047,8 @@ about/biz4age-news',
     'pages' => '<front>
 biz4age-projects
 contact
-about/biz4age-news',
+about/biz4age-news
+about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -1048,6 +1105,32 @@ about/biz4age-news',
     'themes' => array(
       'default' => array(
         'region' => 'preface_third',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Watch our videos',
+    'visibility' => 1,
+  );
+
+  $export['views-video_s-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'video_s-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'about/biz4age-conference',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
         'weight' => 0,

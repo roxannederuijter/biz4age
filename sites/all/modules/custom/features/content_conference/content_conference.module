@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - Conference feature.
+ */
+
+include_once 'content_conference.features.inc';
