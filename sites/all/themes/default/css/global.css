@@ -350,6 +350,8 @@ input[type="button"]:hover,
     font-size: 0.938em;
     font-weight: 400;
     text-align: center; }
+  .zone-preface-second-wrapper .block-projecten-block .views-field-field-samenvatting {
+    color: #fff; }
 
 h2 {
   font-family: "Raleway", sans-serif;
@@ -594,6 +596,8 @@ h2 {
   font-size: 0.938em;
   font-weight: 400;
   text-align: center; }
+.block-projecten-block-1 .views-field-field-samenvatting {
+  color: #fff; }
 
 .not-front .field-name-title h2 {
   font-family: "Raleway", sans-serif;
