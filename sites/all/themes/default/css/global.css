@@ -780,17 +780,19 @@ ul#superfish-1 li.sf-item-2 ul {
 
 .block-conferences-conferences-pdf .views-row {
   float: left; }
-  .block-conferences-conferences-pdf .views-row .views-field-field-download-button {
+  .block-conferences-conferences-pdf .views-row .views-field-field-download-button, .block-conferences-conferences-pdf .views-row .views-field-field-download-button2 {
+    float: left;
     width: 50%; }
-  .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download {
-    width: 50%; }
-    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download .field-content {
+  .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download, .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download2 {
+    width: 50%;
+    float: left; }
+    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download .field-content, .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download2 .field-content {
       text-align: center; }
-    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file img {
+    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file img, .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download2 span.file img {
       display: none; }
-    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file a {
+    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file a, .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download2 span.file a {
       color: #fff; }
-    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file-size {
+    .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download span.file-size, .block-conferences-conferences-pdf .views-row .views-field-field-pdf-download2 span.file-size {
       display: none; }
 
 .block-video-s-block-1 h2 {
@@ -825,5 +827,39 @@ iframe.media-youtube-player {
 
 .front .zone-content h2 {
   display: none; }
+
+.pager li {
+  border-right: none;
+  border-left: none;
+  color: #4d87c5;
+  font: "Raleway", sans-serif;
+  font-size: 0.938em;
+  outline: 0; }
+  .pager li a {
+    color: #4d87c5; }
+
+.pager li a {
+  background: none;
+  cursor: pointer; }
+
+.pager {
+  background: transparent;
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  padding: 6px 0; }
+
+li.pager-first {
+  display: none; }
+
+.pager li.pager-current {
+  background: #4d87c5;
+  border-radius: 15px;
+  color: #FFF;
+  outline: 0; }
+
+.zone-content-wrapper {
+  padding: 50px 0; }
 
 /*# sourceMappingURL=global.css.map */

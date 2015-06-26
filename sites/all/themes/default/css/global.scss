@@ -955,11 +955,13 @@ ul {
 .block-conferences-conferences-pdf {
 .views-row {
   float:left;
-  .views-field-field-download-button {
+  .views-field-field-download-button, .views-field-field-download-button2 {
+    float:left;
     width:50%;
   }
-  .views-field-field-pdf-download {
+  .views-field-field-pdf-download,.views-field-field-pdf-download2  {
     width:50%;
+    float:left;
     .field-content {
       text-align:center;
     }
@@ -1026,4 +1028,42 @@ width:100%;
     display:none;
   }
 }
+}
+
+.pager li {
+  border-right: none;
+  border-left:none;
+  color: $blue;
+  font:$font;
+  font-size:0.938em;
+  outline: 0;
+  a {
+    color:$blue;
+  }
+}
+.pager li a {
+  background: none;
+
+  cursor: pointer;
+}
+.pager {
+  background: transparent;
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  padding:6px 0;
+}
+li.pager-first {
+  display:none;
+}
+.pager li.pager-current {
+  background:$blue;
+  border-radius:15px;
+  color: #FFF;
+  outline: 0;
+}
+
+.zone-content-wrapper {
+  padding:50px 0;
 }
