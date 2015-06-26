@@ -815,4 +815,7 @@ iframe.media-youtube-player {
 .sticky-wrapper {
   height: 0 !important; }
 
+.front .zone-content h2 {
+  display: none; }
+
 /*# sourceMappingURL=global.css.map */
