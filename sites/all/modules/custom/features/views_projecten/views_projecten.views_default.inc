@@ -42,7 +42,7 @@ function views_projecten_views_default_views() {
   $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="button"><a class="button" href="/projecten">View all projects</a></div>';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="button"><a class="button" href="/biz4age-projects">View all projects</a></div>';
   /* Field: Content: Afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -200,7 +200,7 @@ function views_projecten_views_default_views() {
     t('<h2>Our projects</h2>
 
 <p>From March – September 2015, Biz4Age is undertaking 3 projects: ROOMforLIFE; Vital Living Environment; Co-Creating Solutions for Independent Living. Our focus in these projects is on independent living. Our aim is to explore how to design and build homes and neighbourhoods that truly meet the needs of residents at the same time as enhancing the local economy. In particular we explore the transferability of the Zeeland Living Room approach to new contexts and regions.  </p>'),
-    t('<div class="button"><a class="button" href="/projecten">View all projects</a></div>'),
+    t('<div class="button"><a class="button" href="/biz4age-projects">View all projects</a></div>'),
     t('Frontpage-Block'),
     t('Vervolgpagina\'s-Block'),
     t('projects_page'),
