@@ -6,6 +6,7 @@ dependencies[] = adminimal_admin_menu
 dependencies[] = content_video
 dependencies[] = contextual
 dependencies[] = ctools
+dependencies[] = field_collection
 dependencies[] = jquery_update
 dependencies[] = link
 dependencies[] = linkimagefield

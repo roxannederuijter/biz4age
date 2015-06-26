@@ -112,31 +112,28 @@ function view_conferences_views_default_views() {
   /* Display: Conferences_pdf */
   $handler = $view->new_display('block', 'Conferences_pdf', 'conferences_pdf');
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: download button */
-  $handler->display->display_options['fields']['field_download_button']['id'] = 'field_download_button';
-  $handler->display->display_options['fields']['field_download_button']['table'] = 'field_data_field_download_button';
-  $handler->display->display_options['fields']['field_download_button']['field'] = 'field_download_button';
-  $handler->display->display_options['fields']['field_download_button']['label'] = '';
-  $handler->display->display_options['fields']['field_download_button']['alter']['make_link'] = TRUE;
-  $handler->display->display_options['fields']['field_download_button']['alter']['path'] = '[field_pdf_download]';
-  $handler->display->display_options['fields']['field_download_button']['alter']['absolute'] = TRUE;
-  $handler->display->display_options['fields']['field_download_button']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_download_button']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_download_button']['settings'] = array(
-    'image_style' => '',
-    'image_link' => '',
+  /* Field: Content: Downloads */
+  $handler->display->display_options['fields']['field_downloads']['id'] = 'field_downloads';
+  $handler->display->display_options['fields']['field_downloads']['table'] = 'field_data_field_downloads';
+  $handler->display->display_options['fields']['field_downloads']['field'] = 'field_downloads';
+  $handler->display->display_options['fields']['field_downloads']['label'] = '';
+  $handler->display->display_options['fields']['field_downloads']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_downloads']['type'] = 'field_collection_fields';
+  $handler->display->display_options['fields']['field_downloads']['settings'] = array(
+    'view_mode' => 'full',
   );
-  /* Field: Content: pdf download */
-  $handler->display->display_options['fields']['field_pdf_download']['id'] = 'field_pdf_download';
-  $handler->display->display_options['fields']['field_pdf_download']['table'] = 'field_data_field_pdf_download';
-  $handler->display->display_options['fields']['field_pdf_download']['field'] = 'field_pdf_download';
-  $handler->display->display_options['fields']['field_pdf_download']['label'] = '';
-  $handler->display->display_options['fields']['field_pdf_download']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_pdf_download']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_pdf_download']['type'] = 'file_download_link';
-  $handler->display->display_options['fields']['field_pdf_download']['settings'] = array(
-    'text' => 'Download Programme >',
-  );
+  $handler->display->display_options['fields']['field_downloads']['group_rows'] = FALSE;
+  $handler->display->display_options['fields']['field_downloads']['delta_offset'] = '0';
+  $handler->display->display_options['defaults']['arguments'] = FALSE;
+  /* Contextual filter: Content: Nid */
+  $handler->display->display_options['arguments']['nid']['id'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['table'] = 'node';
+  $handler->display->display_options['arguments']['nid']['field'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'node';
+  $handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
   $translatables['conferences'] = array(
     t('Master'),
     t('Conferences'),
@@ -148,6 +145,7 @@ function view_conferences_views_default_views() {
     t('Desc'),
     t('Conferences slideshow'),
     t('Conferences_pdf'),
+    t('All'),
   );
   $export['conferences'] = $view;
 
