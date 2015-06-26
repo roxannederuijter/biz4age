@@ -862,4 +862,20 @@ li.pager-first {
 .zone-content-wrapper {
   padding: 50px 0; }
 
+.field-name-field-download-button {
+  margin-bottom: 10px; }
+  .field-name-field-download-button img {
+    width: 30%; }
+
+.field-name-field-pdf {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center; }
+  .field-name-field-pdf img.file-icon {
+    display: none; }
+  .field-name-field-pdf a {
+    color: #fff; }
+  .field-name-field-pdf span.file-size {
+    display: none; }
+
 /*# sourceMappingURL=global.css.map */
