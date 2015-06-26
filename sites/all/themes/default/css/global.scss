@@ -817,6 +817,17 @@ h2 {
   z-index: 997;
 }
 
+.front, .context-contact {
+  .zone-branding-wrapper {
+    box-shadow:none;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 997;
+  }
+}
+
 ul#superfish-1 li.sf-item-2{
   ul {
     display:none;
