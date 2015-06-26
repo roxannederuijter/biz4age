@@ -955,11 +955,12 @@ ul {
 .block-conferences-conferences-pdf {
 .views-row {
   float:left;
-  .views-field-field-download-button, .views-field-field-download-button2 {
+  width:50%;
+  .views-field-field-download-button {
     float:left;
     width:50%;
   }
-  .views-field-field-pdf-download,.views-field-field-pdf-download2  {
+  .views-field-field-pdf-download  {
     width:50%;
     float:left;
     .field-content {
