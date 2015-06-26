@@ -11,6 +11,7 @@ dependencies[] = link
 dependencies[] = linkimagefield
 dependencies[] = media_youtube
 dependencies[] = strongarm
+dependencies[] = uh_jquery_menu
 dependencies[] = uh_views_responsive
 dependencies[] = video
 dependencies[] = video_ui
