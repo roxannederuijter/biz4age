@@ -97,6 +97,7 @@ function content_video_field_default_field_instances() {
       'settings' => array(
         'allowed_schemes' => array(
           'public' => 'public',
+          'vimeo' => 'vimeo',
           'youtube' => 'youtube',
         ),
         'allowed_types' => array(
