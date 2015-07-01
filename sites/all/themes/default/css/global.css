@@ -883,4 +883,20 @@ li.pager-first {
   .field-name-field-pdf span.file-size {
     display: none; }
 
+.block-clone-of-tweets-block {
+  width: 33.3%;
+  float: left; }
+  .block-clone-of-tweets-block .more-link {
+    text-align: left;
+    margin-left: 8%; }
+  .block-clone-of-tweets-block .view-clone-of-tweets {
+    color: #fff;
+    padding: 0 24% 0 0; }
+    .block-clone-of-tweets-block .view-clone-of-tweets a {
+      color: #fff; }
+
+.block-news-news-frontpage {
+  width: 66.7%;
+  float: right; }
+
 /*# sourceMappingURL=global.css.map */
