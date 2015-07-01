@@ -131,7 +131,7 @@ input[type="button"]:hover,
   border: #ccc;
   background-size: 20px;
   color: #000;
-  margin-top: 50px;
+  margin-top: 0px;
   -webkit-box-shadow: none;
   box-shadow: none; }
 
@@ -247,8 +247,13 @@ input[type="button"]:hover,
 .zone-branding {
   margin-bottom: 20px; }
 
-.logo-img img {
-  width: 65%; }
+.logo-img {
+  margin-right: 0px;
+  width: 28%;
+  margin: 0 auto;
+  float: none; }
+  .logo-img img {
+    width: 65%; }
 
 .view-projecten .view-footer {
   clear: both; }
