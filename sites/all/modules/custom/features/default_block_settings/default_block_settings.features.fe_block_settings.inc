@@ -261,7 +261,9 @@ about/biz4age-conference',
     'machine_name' => 'latestnews',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => 'contact
+about/biz4age-news
+about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -278,7 +280,7 @@ about/biz4age-conference',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['devel-execute_php'] = array(
@@ -885,7 +887,9 @@ about/biz4age-conference',
     'delta' => 'clone_of_tweets-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => 'contact
+about/biz4age-news
+about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -902,7 +906,7 @@ about/biz4age-conference',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['views-conferences-conferences_pdf'] = array(
@@ -963,15 +967,12 @@ about/biz4age-conference',
     'delta' => 'news-news',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>
-contact
-about/biz4age-news
-about/biz4age-conference',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_third',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => -21,
       ),
@@ -983,7 +984,7 @@ about/biz4age-conference',
       ),
     ),
     'title' => 'Latest news',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-news-news_frontpage'] = array(
@@ -992,7 +993,9 @@ about/biz4age-conference',
     'delta' => 'news-news_frontpage',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => 'contact
+about/biz4age-news
+about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -1009,7 +1012,7 @@ about/biz4age-conference',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['views-news-newspage'] = array(
