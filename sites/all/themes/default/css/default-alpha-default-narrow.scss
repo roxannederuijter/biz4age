@@ -272,3 +272,26 @@ iframe.media-youtube-player {
   }
 }
 
+.block-clone-of-tweets-block {
+  width:33.3%;
+  float:left;
+  margin-bottom:0px;
+  .more-link {
+    text-align:left;
+    margin-left:8%;
+  }
+  .view-clone-of-tweets {
+    color:#fff;
+    padding: 0 24% 0 0;
+    text-align:left;
+    a {
+      color:#fff;
+    }
+  }
+}
+
+.block-news-news-frontpage {
+  width:66.7%;
+  float:right;
+}
+

@@ -210,4 +210,22 @@ iframe.media-youtube-player {
   font-size: 0.938em;
   text-align: left; }
 
+.block-clone-of-tweets-block {
+  width: 33.3%;
+  float: left;
+  margin-bottom: 0px; }
+  .block-clone-of-tweets-block .more-link {
+    text-align: left;
+    margin-left: 8%; }
+  .block-clone-of-tweets-block .view-clone-of-tweets {
+    color: #fff;
+    padding: 0 24% 0 0;
+    text-align: left; }
+    .block-clone-of-tweets-block .view-clone-of-tweets a {
+      color: #fff; }
+
+.block-news-news-frontpage {
+  width: 66.7%;
+  float: right; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
