@@ -749,6 +749,32 @@ about/biz4age-conference',
     'visibility' => 0,
   );
 
+  $export['twitter_signin-0'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 0,
+    'module' => 'twitter_signin',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['user-login'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -895,7 +921,7 @@ about/biz4age-conference',
         'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => '',
@@ -921,7 +947,7 @@ about/biz4age-conference',
         'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -18,
+        'weight' => -22,
       ),
       'seven' => array(
         'region' => '',
@@ -947,7 +973,7 @@ about/biz4age-conference',
         'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -20,
       ),
       'seven' => array(
         'region' => '',
@@ -1094,6 +1120,32 @@ about/biz4age-conference',
     'visibility' => 1,
   );
 
+  $export['views-tweets-block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'tweets-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_third',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -23,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-video_s-block'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -1133,7 +1185,7 @@ about/biz4age-conference',
         'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
