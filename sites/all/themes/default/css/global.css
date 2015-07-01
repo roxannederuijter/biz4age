@@ -434,10 +434,15 @@ h2 {
 .front .zone-postscript-second-wrapper {
   padding: 50px 0; }
   .front .zone-postscript-second-wrapper h2 {
-    color: #000;
-    border-bottom: none;
-    margin-bottom: 0px;
-    padding-bottom: 0px; }
+    border-bottom: 1px solid #fff;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+.front .zone-postscript-third-wrapper h2 {
+  border-bottom: 1px solid #fff;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 30px; }
 
 .zone-postscript-third-wrapper {
   background-color: #4d87c5;

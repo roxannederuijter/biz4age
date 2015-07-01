@@ -35,5 +35,14 @@ Email: ruth.mcnally@anglia.ac.uk</p>
 
   $export['googlemaps'] = $fe_block_boxes;
 
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Latest news';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'latestnews';
+  $fe_block_boxes->body = '<h2>Latest news</h2>
+';
+
+  $export['latestnews'] = $fe_block_boxes;
+
   return $export;
 }

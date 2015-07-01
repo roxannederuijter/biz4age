@@ -23,6 +23,7 @@ function views_twitter_views_default_views() {
   /* Display: Tweets */
   $handler = $view->new_display('default', 'Tweets', 'default');
   $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['use_more_text'] = 'Read more tweets >';
   $handler->display->display_options['access']['type'] = 'none';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
@@ -53,12 +54,6 @@ function views_twitter_views_default_views() {
       'separator' => '',
     ),
   );
-  /* Footer: Global: Text area */
-  $handler->display->display_options['footer']['area']['id'] = 'area';
-  $handler->display->display_options['footer']['area']['table'] = 'views';
-  $handler->display->display_options['footer']['area']['field'] = 'area';
-  $handler->display->display_options['footer']['area']['content'] = 'meeeer';
-  $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
   /* Field: Twitter: Profile image */
   $handler->display->display_options['fields']['profile_image_url']['id'] = 'profile_image_url';
   $handler->display->display_options['fields']['profile_image_url']['table'] = 'twitter_account';
@@ -297,15 +292,15 @@ function views_twitter_views_default_views() {
   $handler->display->display_options['path'] = 'tweets';
   $translatables['clone_of_tweets'] = array(
     t('Tweets'),
-    t('more'),
+    t('Read more tweets >'),
     t('Apply'),
     t('Reset'),
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('meeeer'),
     t('Tweets Raw'),
     t('Lists tweets within a table.'),
+    t('more'),
     t('All'),
     t('Tweets by @%1'),
     t('Block'),
