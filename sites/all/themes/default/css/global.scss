@@ -1139,5 +1139,8 @@ li.pager-first {
   .views-row {
     width:33.3%;
     float:left;
+    .field-name-field-download-button img {
+      float:left;
+    }
   }
 }

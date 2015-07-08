@@ -914,5 +914,7 @@ li.pager-first {
 #block-views-magazine-conferences-pdf .views-row {
   width: 33.3%;
   float: left; }
+  #block-views-magazine-conferences-pdf .views-row .field-name-field-download-button img {
+    float: left; }
 
 /*# sourceMappingURL=global.css.map */
