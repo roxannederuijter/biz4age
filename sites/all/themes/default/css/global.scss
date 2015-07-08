@@ -1142,5 +1142,13 @@ li.pager-first {
     .field-name-field-download-button img {
       float:left;
     }
+    .field-name-field-pdf {
+      width:100%;
+      float:left;
+      text-align:left;
+      a {
+        color:#000;
+      }
+    }
   }
 }

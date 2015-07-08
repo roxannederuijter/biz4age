@@ -916,5 +916,11 @@ li.pager-first {
   float: left; }
   #block-views-magazine-conferences-pdf .views-row .field-name-field-download-button img {
     float: left; }
+  #block-views-magazine-conferences-pdf .views-row .field-name-field-pdf {
+    width: 100%;
+    float: left;
+    text-align: left; }
+    #block-views-magazine-conferences-pdf .views-row .field-name-field-pdf a {
+      color: #000; }
 
 /*# sourceMappingURL=global.css.map */
