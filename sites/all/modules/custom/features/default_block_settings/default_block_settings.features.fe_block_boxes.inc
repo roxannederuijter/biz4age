@@ -20,7 +20,7 @@ Cambridge<br />
 CB1 1PT<br />
 UK<br />
 &nbsp;<br />
-Telephone: +44 (0) 1223 69 2238<br />
+Telephone: +44 (0) 1223 69 5686<br />
 Email: ruth.mcnally@anglia.ac.uk</p>
 ';
 
