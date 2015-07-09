@@ -102,6 +102,24 @@ function default_permissions_user_default_permissions() {
     'module' => 'media',
   );
 
+  // Exported permission: 'access own authorizations'.
+  $permissions['access own authorizations'] = array(
+    'name' => 'access own authorizations',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'oauth_common',
+  );
+
+  // Exported permission: 'access own consumers'.
+  $permissions['access own consumers'] = array(
+    'name' => 'access own consumers',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'oauth_common',
+  );
+
   // Exported permission: 'access own webform results'.
   $permissions['access own webform results'] = array(
     'name' => 'access own webform results',
@@ -154,6 +172,15 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'twitter',
+  );
+
+  // Exported permission: 'add media from remote sources'.
+  $permissions['add media from remote sources'] = array(
+    'name' => 'add media from remote sources',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'media_internet',
   );
 
   // Exported permission: 'add twitter accounts'.
@@ -264,6 +291,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'ckeditor',
   );
 
+  // Exported permission: 'administer consumers'.
+  $permissions['administer consumers'] = array(
+    'name' => 'administer consumers',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'oauth_common',
+  );
+
   // Exported permission: 'administer content types'.
   $permissions['administer content types'] = array(
     'name' => 'administer content types',
@@ -289,6 +325,15 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'features',
+  );
+
+  // Exported permission: 'administer field collections'.
+  $permissions['administer field collections'] = array(
+    'name' => 'administer field collections',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'field_collection',
   );
 
   // Exported permission: 'administer file types'.
@@ -406,6 +451,15 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'administer oauth'.
+  $permissions['administer oauth'] = array(
+    'name' => 'administer oauth',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'oauth_common',
   );
 
   // Exported permission: 'administer page titles'.
@@ -534,6 +588,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'administer video presets'.
+  $permissions['administer video presets'] = array(
+    'name' => 'administer video presets',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'video',
+  );
+
   // Exported permission: 'administer views'.
   $permissions['administer views'] = array(
     'name' => 'administer views',
@@ -559,6 +622,15 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'system',
+  );
+
+  // Exported permission: 'bypass conversion video'.
+  $permissions['bypass conversion video'] = array(
+    'name' => 'bypass conversion video',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'video',
   );
 
   // Exported permission: 'bypass file access'.
@@ -608,6 +680,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'convert on submission'.
+  $permissions['convert on submission'] = array(
+    'name' => 'convert on submission',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'video',
+  );
+
   // Exported permission: 'create any banner bean'.
   $permissions['create any banner bean'] = array(
     'name' => 'create any banner bean',
@@ -626,6 +707,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create conference content'.
+  $permissions['create conference content'] = array(
+    'name' => 'create conference content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'create files'.
   $permissions['create files'] = array(
     'name' => 'create files',
@@ -635,9 +723,30 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'create news content'.
+  $permissions['create news content'] = array(
+    'name' => 'create news content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'create page content'.
   $permissions['create page content'] = array(
     'name' => 'create page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'create partner content'.
+  $permissions['create partner content'] = array(
+    'name' => 'create partner content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'create project content'.
+  $permissions['create project content'] = array(
+    'name' => 'create project content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -649,6 +758,13 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'path',
+  );
+
+  // Exported permission: 'create video content'.
+  $permissions['create video content'] = array(
+    'name' => 'create video content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'create webform content'.
@@ -692,6 +808,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'delete any conference content'.
+  $permissions['delete any conference content'] = array(
+    'name' => 'delete any conference content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete any cta bean'.
   $permissions['delete any cta bean'] = array(
     'name' => 'delete any cta bean',
@@ -715,9 +838,37 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'delete any news content'.
+  $permissions['delete any news content'] = array(
+    'name' => 'delete any news content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete any page content'.
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete any partner content'.
+  $permissions['delete any partner content'] = array(
+    'name' => 'delete any partner content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete any project content'.
+  $permissions['delete any project content'] = array(
+    'name' => 'delete any project content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete any video content'.
+  $permissions['delete any video content'] = array(
+    'name' => 'delete any video content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -743,6 +894,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'delete own conference content'.
+  $permissions['delete own conference content'] = array(
+    'name' => 'delete own conference content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete own document files'.
   $permissions['delete own document files'] = array(
     'name' => 'delete own document files',
@@ -757,9 +915,37 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'delete own news content'.
+  $permissions['delete own news content'] = array(
+    'name' => 'delete own news content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete own page content'.
   $permissions['delete own page content'] = array(
     'name' => 'delete own page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete own partner content'.
+  $permissions['delete own partner content'] = array(
+    'name' => 'delete own partner content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete own project content'.
+  $permissions['delete own project content'] = array(
+    'name' => 'delete own project content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete own video content'.
+  $permissions['delete own video content'] = array(
+    'name' => 'delete own video content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -886,6 +1072,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'edit any conference content'.
+  $permissions['edit any conference content'] = array(
+    'name' => 'edit any conference content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any cta bean'.
   $permissions['edit any cta bean'] = array(
     'name' => 'edit any cta bean',
@@ -909,9 +1102,37 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'edit any news content'.
+  $permissions['edit any news content'] = array(
+    'name' => 'edit any news content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any page content'.
   $permissions['edit any page content'] = array(
     'name' => 'edit any page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit any partner content'.
+  $permissions['edit any partner content'] = array(
+    'name' => 'edit any partner content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit any project content'.
+  $permissions['edit any project content'] = array(
+    'name' => 'edit any project content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit any video content'.
+  $permissions['edit any video content'] = array(
+    'name' => 'edit any video content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -955,6 +1176,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'edit own conference content'.
+  $permissions['edit own conference content'] = array(
+    'name' => 'edit own conference content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit own document files'.
   $permissions['edit own document files'] = array(
     'name' => 'edit own document files',
@@ -969,9 +1197,37 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'edit own news content'.
+  $permissions['edit own news content'] = array(
+    'name' => 'edit own news content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit own page content'.
   $permissions['edit own page content'] = array(
     'name' => 'edit own page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit own partner content'.
+  $permissions['edit own partner content'] = array(
+    'name' => 'edit own partner content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit own project content'.
+  $permissions['edit own project content'] = array(
+    'name' => 'edit own project content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit own video content'.
+  $permissions['edit own video content'] = array(
+    'name' => 'edit own video content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -1017,6 +1273,24 @@ function default_permissions_user_default_permissions() {
     'module' => 'devel',
   );
 
+  // Exported permission: 'extended file field delete any file contents'.
+  $permissions['extended file field delete any file contents'] = array(
+    'name' => 'extended file field delete any file contents',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'extended_file_field',
+  );
+
+  // Exported permission: 'extended file field delete own file contents'.
+  $permissions['extended file field delete own file contents'] = array(
+    'name' => 'extended file field delete own file contents',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'extended_file_field',
+  );
+
   // Exported permission: 'flush caches'.
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
@@ -1053,6 +1327,24 @@ function default_permissions_user_default_permissions() {
     'module' => 'pathauto',
   );
 
+  // Exported permission: 'oauth authorize any consumers'.
+  $permissions['oauth authorize any consumers'] = array(
+    'name' => 'oauth authorize any consumers',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'oauth_common',
+  );
+
+  // Exported permission: 'oauth register any consumers'.
+  $permissions['oauth register any consumers'] = array(
+    'name' => 'oauth register any consumers',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'oauth_common',
+  );
+
   // Exported permission: 'opt-in or out of tracking'.
   $permissions['opt-in or out of tracking'] = array(
     'name' => 'opt-in or out of tracking',
@@ -1062,6 +1354,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'googleanalytics',
   );
 
+  // Exported permission: 'override player dimensions'.
+  $permissions['override player dimensions'] = array(
+    'name' => 'override player dimensions',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'video',
+  );
+
   // Exported permission: 'post to twitter'.
   $permissions['post to twitter'] = array(
     'name' => 'post to twitter',
@@ -1069,6 +1370,15 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'twitter_post',
+  );
+
+  // Exported permission: 're convert video'.
+  $permissions['re convert video'] = array(
+    'name' => 're convert video',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'video',
   );
 
   // Exported permission: 'rename features'.
@@ -1163,6 +1473,15 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'ctools',
+  );
+
+  // Exported permission: 'use default thumb'.
+  $permissions['use default thumb'] = array(
+    'name' => 'use default thumb',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'video',
   );
 
   // Exported permission: 'use php in custom breadcrumbs'.
