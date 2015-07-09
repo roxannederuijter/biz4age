@@ -1001,7 +1001,9 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'download any document files'.
   $permissions['download any document files'] = array(
     'name' => 'download any document files',
-    'roles' => array(),
+    'roles' => array(
+      'anonymous user' => 'anonymous user',
+    ),
     'module' => 'file_entity',
   );
 
@@ -1278,6 +1280,8 @@ function default_permissions_user_default_permissions() {
     'name' => 'extended file field delete any file contents',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'extended_file_field',
   );
@@ -1287,6 +1291,8 @@ function default_permissions_user_default_permissions() {
     'name' => 'extended file field delete own file contents',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'extended_file_field',
   );
