@@ -396,6 +396,58 @@ padding:50px 0;
 }
 }
 
+.zone-preface-third-wrapper {
+  .block-projecten-block {
+    .view-header {
+      width:80%;
+      margin:0 auto;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 35px;
+      p {
+        color:#fff;
+        font-family:$font;
+        font-size:1.125em;
+        font-weight:400;
+        text-align:center;
+      }
+    }
+    .views-row {
+      width: 100%;
+      float: left;
+      margin-bottom:50px;
+    }
+    .views-row-last {
+      padding-right:0;
+    }
+    .views-field-field-image {
+      img {
+        margin:0 0 10px 0;
+        margin: 0 auto;
+      }
+    }
+    .views-field-title {
+      color:#fff;
+      font-family:$font;
+      font-size:1.500em;
+      font-weight:600;
+      margin-bottom:10px;
+      text-align:center;
+    }
+    .views-field-body {
+      p {
+        color:#fff;
+        font-family:$font;
+        font-size:0.938em;
+        font-weight:400;
+        text-align:center;
+      }
+    }
+    .views-field-field-samenvatting {
+      color:#fff;
+    }
+  }
+}
+
 h2 {
 font-family:$font;
 font-size:2.250em;
