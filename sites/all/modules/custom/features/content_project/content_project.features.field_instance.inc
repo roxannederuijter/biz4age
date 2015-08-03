@@ -19,10 +19,9 @@ function content_project_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'text',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 2,
+        'type' => 'hidden',
+        'weight' => 3,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -36,21 +35,81 @@ function content_project_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Body',
-    'required' => FALSE,
+    'label' => 'Projectpage',
+    'required' => 0,
     'settings' => array(
-      'display_summary' => TRUE,
+      'display_summary' => 1,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'text',
       'settings' => array(
         'rows' => 20,
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 41,
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance: 'node-project-field_detailpage'
+  $field_instances['node-project-field_detailpage'] = array(
+    'bundle' => 'project',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'paragraphs',
+        'settings' => array(
+          'view_mode' => 'full',
+        ),
+        'type' => 'paragraphs_view',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_detailpage',
+    'label' => 'Detailpage',
+    'required' => 0,
+    'settings' => array(
+      'add_mode' => 'select',
+      'allowed_bundles' => array(
+        '1_kolom_afbeelding' => -1,
+        '1_kolom_tekst' => -1,
+        '2_kolommen_afbeeldingen' => -1,
+        '2_kolommen_tekst' => -1,
+        '2_kolommen_tekst_afbeelding_link' => -1,
+        '2_kolommen_tekst_afbeelding_rech' => -1,
+      ),
+      'bundle_weights' => array(
+        '1_kolom_afbeelding' => 2,
+        '1_kolom_tekst' => 3,
+        '2_kolommen_afbeeldingen' => 4,
+        '2_kolommen_tekst' => 5,
+        '2_kolommen_tekst_afbeelding_link' => 6,
+        '2_kolommen_tekst_afbeelding_rech' => 7,
+      ),
+      'default_edit_mode' => 'open',
+      'title' => 'Detailpage',
+      'title_multiple' => 'Detailpage',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'paragraphs',
+      'settings' => array(),
+      'type' => 'paragraphs_embed',
+      'weight' => 7,
     ),
   );
 
@@ -62,13 +121,9 @@ function content_project_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'image',
-        'settings' => array(
-          'image_link' => '',
-          'image_style' => 'project',
-        ),
-        'type' => 'image',
-        'weight' => 0,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -100,7 +155,7 @@ function content_project_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 42,
+      'weight' => 6,
     ),
   );
 
@@ -113,10 +168,9 @@ function content_project_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 3,
+        'type' => 'hidden',
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -127,7 +181,7 @@ function content_project_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_samenvatting',
-    'label' => 'Samenvatting',
+    'label' => 'Summary',
     'required' => 0,
     'settings' => array(
       'display_summary' => 0,
@@ -142,15 +196,16 @@ function content_project_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 43,
+      'weight' => 4,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
-  t('Body');
-  t('Samenvatting');
+  t('Detailpage');
+  t('Projectpage');
+  t('Summary');
 
   return $field_instances;
 }
