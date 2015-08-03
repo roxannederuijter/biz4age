@@ -611,7 +611,7 @@ padding:50px 0;
 box-shadow: 0px 10px 20px -5px #888888;
 }
 
-.block-news-news-frontpage, .block-views-news-news {
+.block-news-news-frontpage, .block-news-news {
 h2.block-title {
   width: 60%;
   margin: 0 auto;
@@ -652,7 +652,7 @@ h2.block-title {
 }
 }
 
-.block-news-news {
+.block-news-news, .block-news-news {
 h2.block-title {
   width: 60%;
   margin: 0 auto;
@@ -1232,7 +1232,7 @@ li.pager-first {
   }
 }
 
-.block-news-news-frontpage {
+.block-news-news-frontpage, .block-news-news {
   width:100%;
   float:none;
 }

@@ -106,18 +106,18 @@
 .block-projecten-block-1 .views-field-body p {
   text-align: left; }
 
-.block-news-news-frontpage .views-row, .block-views-news-news .views-row {
+.block-news-news-frontpage .views-row, .block-news-news .views-row {
   width: 50%;
   float: left;
   padding: 0 4%;
   margin-bottom: 50px;
   box-sizing: border-box; }
-  .block-news-news-frontpage .views-row .views-field-field-image img, .block-views-news-news .views-row .views-field-field-image img {
+  .block-news-news-frontpage .views-row .views-field-field-image img, .block-news-news .views-row .views-field-field-image img {
     margin: 0 0 10px 0;
     margin: 0 0 0 0; }
-  .block-news-news-frontpage .views-row .views-field-title, .block-views-news-news .views-row .views-field-title {
+  .block-news-news-frontpage .views-row .views-field-title, .block-news-news .views-row .views-field-title {
     text-align: left; }
-  .block-news-news-frontpage .views-row .views-field-body p, .block-views-news-news .views-row .views-field-body p {
+  .block-news-news-frontpage .views-row .views-field-body p, .block-news-news .views-row .views-field-body p {
     text-align: left; }
 
 .front .view-partners .views-field-field-logo {
@@ -161,20 +161,6 @@ iframe.media-vimeo-player {
   padding: 24px 50px; }
 .button a.button-light {
   padding: 24px 50px; }
-
-.block-news-news .views-row {
-  width: 33.3%;
-  float: left;
-  padding: 0 4%;
-  margin-bottom: 50px;
-  box-sizing: border-box; }
-  .block-news-news .views-row .views-field-field-image img {
-    margin: 0 0 10px 0;
-    margin: 0 0 0 0; }
-  .block-news-news .views-row .views-field-title {
-    text-align: left; }
-  .block-news-news .views-row .views-field-body p {
-    text-align: left; }
 
 .block-news-newspage .views-row {
   width: 33.3%;
@@ -237,7 +223,7 @@ iframe.media-vimeo-player {
     .block-clone-of-tweets-block .view-clone-of-tweets a, .block-views-clone-of-tweets-block-1 .view-clone-of-tweets a {
       color: #fff; }
 
-.block-news-news-frontpage, .block-views-news-news {
+.block-news-news-frontpage, .block-news-news {
   width: 66.7%;
   float: right; }
 
