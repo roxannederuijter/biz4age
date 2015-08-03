@@ -267,7 +267,7 @@ about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_third',
+        'region' => 'preface_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => -24,
@@ -893,7 +893,7 @@ about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_third',
+        'region' => 'preface_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => -23,
@@ -1025,7 +1025,7 @@ about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_third',
+        'region' => 'preface_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => -22,
@@ -1054,7 +1054,7 @@ about/biz4age-conference',
         'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -20,
+        'weight' => -23,
       ),
       'seven' => array(
         'region' => '',
@@ -1129,10 +1129,10 @@ about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'preface_second',
+        'region' => 'preface_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -1237,10 +1237,10 @@ about/biz4age-conference',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'preface_third',
+        'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -24,
       ),
       'seven' => array(
         'region' => '',
@@ -1266,7 +1266,7 @@ about/biz4age-conference',
         'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -19,
+        'weight' => -22,
       ),
       'seven' => array(
         'region' => '',
