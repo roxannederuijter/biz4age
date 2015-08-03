@@ -110,6 +110,12 @@ function view_news_views_default_views() {
 
   /* Display: Vervolgpagina-Block */
   $handler = $view->new_display('block', 'Vervolgpagina-Block', 'news');
+  $handler->display->display_options['defaults']['footer'] = FALSE;
+  /* Footer: Global: Unfiltered text */
+  $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="button"><a class="button-light" href="/about/biz4age-news">View all news</a></div>';
 
   /* Display: newspage-Block */
   $handler = $view->new_display('block', 'newspage-Block', 'newspage');
@@ -133,6 +139,7 @@ function view_news_views_default_views() {
     t('<div class="button"><a class="button" href="/about/biz4age-news">View all news</a></div>'),
     t('Frontpage-Block'),
     t('Vervolgpagina-Block'),
+    t('<div class="button"><a class="button-light" href="/about/biz4age-news">View all news</a></div>'),
     t('newspage-Block'),
   );
   $export['news'] = $view;

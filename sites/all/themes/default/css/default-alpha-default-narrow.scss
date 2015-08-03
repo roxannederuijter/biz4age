@@ -131,7 +131,7 @@
   }
 }
 
-.block-news-news-frontpage {
+.block-news-news-frontpage, .block-views-news-news {
   .views-row {
     width: 50%;
     float: left;
@@ -297,7 +297,7 @@ iframe.media-vimeo-player {
   }
 }
 
-.block-clone-of-tweets-block {
+.block-clone-of-tweets-block, .block-views-clone-of-tweets-block-1 {
   width:33.3%;
   float:left;
   margin-bottom:0px;
@@ -315,7 +315,7 @@ iframe.media-vimeo-player {
   }
 }
 
-.block-news-news-frontpage {
+.block-news-news-frontpage, .block-views-news-news {
   width:66.7%;
   float:right;
 }

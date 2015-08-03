@@ -44,5 +44,14 @@ Email: ruth.mcnally@anglia.ac.uk</p>
 
   $export['latestnews'] = $fe_block_boxes;
 
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Latest newstwee';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'latestnewstwee';
+  $fe_block_boxes->body = '<h2>Latest news</h2>
+';
+
+  $export['latestnewstwee'] = $fe_block_boxes;
+
   return $export;
 }

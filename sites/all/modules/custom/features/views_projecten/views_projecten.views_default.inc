@@ -128,6 +128,12 @@ function views_projecten_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '3';
   $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['defaults']['footer'] = FALSE;
+  /* Footer: Global: Unfiltered text */
+  $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="button"><a class="button" href="/biz4age-projects">View all projects</a></div>';
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
@@ -200,6 +206,7 @@ function views_projecten_views_default_views() {
     t('<div class="button"><a class="button-light" href="/biz4age-projects">View all projects</a></div>'),
     t('Frontpage-Block'),
     t('Vervolgpagina\'s-Block'),
+    t('<div class="button"><a class="button" href="/biz4age-projects">View all projects</a></div>'),
     t('projects_page'),
   );
   $export['projecten'] = $view;

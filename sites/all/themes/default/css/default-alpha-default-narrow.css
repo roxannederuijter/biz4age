@@ -106,18 +106,18 @@
 .block-projecten-block-1 .views-field-body p {
   text-align: left; }
 
-.block-news-news-frontpage .views-row {
+.block-news-news-frontpage .views-row, .block-views-news-news .views-row {
   width: 50%;
   float: left;
   padding: 0 4%;
   margin-bottom: 50px;
   box-sizing: border-box; }
-  .block-news-news-frontpage .views-row .views-field-field-image img {
+  .block-news-news-frontpage .views-row .views-field-field-image img, .block-views-news-news .views-row .views-field-field-image img {
     margin: 0 0 10px 0;
     margin: 0 0 0 0; }
-  .block-news-news-frontpage .views-row .views-field-title {
+  .block-news-news-frontpage .views-row .views-field-title, .block-views-news-news .views-row .views-field-title {
     text-align: left; }
-  .block-news-news-frontpage .views-row .views-field-body p {
+  .block-news-news-frontpage .views-row .views-field-body p, .block-views-news-news .views-row .views-field-body p {
     text-align: left; }
 
 .front .view-partners .views-field-field-logo {
@@ -223,21 +223,21 @@ iframe.media-vimeo-player {
   font-size: 0.938em;
   text-align: left; }
 
-.block-clone-of-tweets-block {
+.block-clone-of-tweets-block, .block-views-clone-of-tweets-block-1 {
   width: 33.3%;
   float: left;
   margin-bottom: 0px; }
-  .block-clone-of-tweets-block .more-link {
+  .block-clone-of-tweets-block .more-link, .block-views-clone-of-tweets-block-1 .more-link {
     text-align: left;
     margin-left: 8%; }
-  .block-clone-of-tweets-block .view-clone-of-tweets {
+  .block-clone-of-tweets-block .view-clone-of-tweets, .block-views-clone-of-tweets-block-1 .view-clone-of-tweets {
     color: #fff;
     padding: 0 24% 0 0;
     text-align: left; }
-    .block-clone-of-tweets-block .view-clone-of-tweets a {
+    .block-clone-of-tweets-block .view-clone-of-tweets a, .block-views-clone-of-tweets-block-1 .view-clone-of-tweets a {
       color: #fff; }
 
-.block-news-news-frontpage {
+.block-news-news-frontpage, .block-views-news-news {
   width: 66.7%;
   float: right; }
 

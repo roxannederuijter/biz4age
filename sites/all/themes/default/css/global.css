@@ -514,35 +514,35 @@ h2 {
   padding: 50px 0;
   box-shadow: 0px 10px 20px -5px #888888; }
 
-.block-news-news-frontpage h2.block-title {
+.block-news-news-frontpage h2.block-title, .block-views-news-news h2.block-title {
   width: 60%;
   margin: 0 auto;
   border-bottom: 1px solid #fff;
   margin-bottom: 50px;
   padding-bottom: 30px; }
-.block-news-news-frontpage .views-row {
+.block-news-news-frontpage .views-row, .block-views-news-news .views-row {
   width: 100%;
   float: left;
   padding: 0 0%;
   margin-bottom: 50px;
   box-sizing: border-box; }
-  .block-news-news-frontpage .views-row .views-field-field-image img {
+  .block-news-news-frontpage .views-row .views-field-field-image img, .block-views-news-news .views-row .views-field-field-image img {
     margin: 0 0 10px 0;
     margin: 0 auto; }
-  .block-news-news-frontpage .views-row .views-field-title {
+  .block-news-news-frontpage .views-row .views-field-title, .block-views-news-news .views-row .views-field-title {
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-size: 1.500em;
     font-weight: 600;
     margin-bottom: 10px;
     text-align: center; }
-  .block-news-news-frontpage .views-row .views-field-body p {
+  .block-news-news-frontpage .views-row .views-field-body p, .block-views-news-news .views-row .views-field-body p {
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-size: 0.938em;
     font-weight: 400;
     text-align: center; }
-.block-news-news-frontpage .view-footer {
+.block-news-news-frontpage .view-footer, .block-views-news-news .view-footer {
   clear: both; }
 
 .block-news-news h2.block-title {
@@ -965,6 +965,20 @@ li.pager-first {
     padding: 0;
     text-align: center; }
     .block-clone-of-tweets-block .view-clone-of-tweets a {
+      color: #fff; }
+
+.block-views-clone-of-tweets-block-1 {
+  width: 100%;
+  float: none;
+  margin-bottom: 50px; }
+  .block-views-clone-of-tweets-block-1 .more-link {
+    text-align: center;
+    margin-left: 8%; }
+  .block-views-clone-of-tweets-block-1 .view-clone-of-tweets {
+    color: #fff;
+    padding: 0;
+    text-align: center; }
+    .block-views-clone-of-tweets-block-1 .view-clone-of-tweets a {
       color: #fff; }
 
 .block-news-news-frontpage {

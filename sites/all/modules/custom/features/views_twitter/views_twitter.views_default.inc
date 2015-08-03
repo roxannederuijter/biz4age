@@ -290,6 +290,49 @@ function views_twitter_views_default_views() {
   $handler->display->display_options['arguments']['screen_name']['summary_options']['items_per_page'] = '25';
   $handler->display->display_options['arguments']['screen_name']['limit'] = '0';
   $handler->display->display_options['path'] = 'tweets';
+
+  /* Display: Block-vervolg */
+  $handler = $view->new_display('block', 'Block-vervolg', 'block_1');
+  $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
+  $handler->display->display_options['defaults']['use_more'] = FALSE;
+  $handler->display->display_options['use_more'] = TRUE;
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'list';
+  $handler->display->display_options['style_options']['grouping'] = '';
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['row_plugin'] = 'fields';
+  $handler->display->display_options['row_options']['inline'] = array(
+    'text' => 'text',
+    'created_time' => 'created_time',
+  );
+  $handler->display->display_options['row_options']['separator'] = ' &#8212; ';
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Twitter: Profile image */
+  $handler->display->display_options['fields']['profile_image_url']['id'] = 'profile_image_url';
+  $handler->display->display_options['fields']['profile_image_url']['table'] = 'twitter_account';
+  $handler->display->display_options['fields']['profile_image_url']['field'] = 'profile_image_url';
+  $handler->display->display_options['fields']['profile_image_url']['label'] = '';
+  $handler->display->display_options['fields']['profile_image_url']['element_label_colon'] = FALSE;
+  /* Field: Twitter: Created time */
+  $handler->display->display_options['fields']['created_time']['id'] = 'created_time';
+  $handler->display->display_options['fields']['created_time']['table'] = 'twitter';
+  $handler->display->display_options['fields']['created_time']['field'] = 'created_time';
+  $handler->display->display_options['fields']['created_time']['label'] = '';
+  $handler->display->display_options['fields']['created_time']['date_format'] = 'time ago';
+  /* Field: Twitter: Message text */
+  $handler->display->display_options['fields']['text']['id'] = 'text';
+  $handler->display->display_options['fields']['text']['table'] = 'twitter';
+  $handler->display->display_options['fields']['text']['field'] = 'text';
+  $handler->display->display_options['fields']['text']['label'] = '';
+  $handler->display->display_options['fields']['text']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['text']['link_urls'] = 1;
+  $handler->display->display_options['fields']['text']['link_usernames'] = 1;
+  $handler->display->display_options['fields']['text']['link_hashtags'] = 1;
+  $handler->display->display_options['fields']['text']['link_attributes'] = 1;
+  $handler->display->display_options['defaults']['arguments'] = FALSE;
+  $handler->display->display_options['block_description'] = 'Tweetsfeed-vervolg';
   $translatables['clone_of_tweets'] = array(
     t('Tweets'),
     t('Read more tweets >'),
@@ -313,6 +356,8 @@ function views_twitter_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
+    t('Block-vervolg'),
+    t('Tweetsfeed-vervolg'),
   );
   $export['clone_of_tweets'] = $view;
 
