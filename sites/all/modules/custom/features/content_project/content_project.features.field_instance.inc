@@ -22,10 +22,14 @@ function content_project_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'weight' => 2,
 =======
         'weight' => 10,
 >>>>>>> fd89ff5b6da9cf692914bbb0b537b09778b41193
+=======
+        'weight' => 3,
+>>>>>>> 1e4933b00e6e68b09e582fe51e56b1ab11aac06d
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -128,10 +132,14 @@ function content_project_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'weight' => 3,
 =======
         'weight' => 9,
 >>>>>>> fd89ff5b6da9cf692914bbb0b537b09778b41193
+=======
+        'weight' => 2,
+>>>>>>> 1e4933b00e6e68b09e582fe51e56b1ab11aac06d
       ),
       'teaser' => array(
         'label' => 'above',
