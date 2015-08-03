@@ -492,6 +492,38 @@ h2 {
 }
 }
 
+.zone-postscript-third-wrapper {
+  h2 {
+    border-bottom:1px solid #fff;
+    width:60%;
+    margin:0 auto;
+    margin-bottom:30px;
+  }
+  .view-video-s {
+    .views-field-title {
+      font-size: 24px;
+      color: #fff;
+      text-align: center;
+      font-weight: 600;
+      width:65%;
+      margin:0 auto;
+      margin-bottom:10px;
+    }
+    .views-field-body {
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 500;
+      width:65%;
+      margin:0 auto;
+    }
+    .views-field-field-video {
+      text-align:center;
+      margin-bottom:30px;
+    }
+  }
+}
+
 .views-slideshow-controls-text-previous {
 display:none;
 }
