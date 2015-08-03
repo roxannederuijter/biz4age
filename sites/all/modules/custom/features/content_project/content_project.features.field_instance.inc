@@ -21,7 +21,11 @@ function content_project_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
+<<<<<<< HEAD
         'weight' => 2,
+=======
+        'weight' => 10,
+>>>>>>> fd89ff5b6da9cf692914bbb0b537b09778b41193
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -68,7 +72,7 @@ function content_project_field_default_field_instances() {
           'view_mode' => 'full',
         ),
         'type' => 'paragraphs_view',
-        'weight' => 1,
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -123,7 +127,11 @@ function content_project_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
+<<<<<<< HEAD
         'weight' => 3,
+=======
+        'weight' => 9,
+>>>>>>> fd89ff5b6da9cf692914bbb0b537b09778b41193
       ),
       'teaser' => array(
         'label' => 'above',
