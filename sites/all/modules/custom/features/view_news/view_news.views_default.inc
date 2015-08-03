@@ -37,7 +37,7 @@ function view_news_views_default_views() {
   $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="button"><a class="button-light" href="/about/biz4age-news">View all news</a></div>';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="button"><a class="button" href="/about/biz4age-news">View all news</a></div>';
   /* Field: Content: Afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -130,7 +130,7 @@ function view_news_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('<div class="button"><a class="button-light" href="/about/biz4age-news">View all news</a></div>'),
+    t('<div class="button"><a class="button" href="/about/biz4age-news">View all news</a></div>'),
     t('Frontpage-Block'),
     t('Vervolgpagina-Block'),
     t('newspage-Block'),
