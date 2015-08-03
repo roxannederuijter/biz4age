@@ -83,6 +83,31 @@
   }
 }
 
+.zone-preface-third-wrapper {
+  .block-projecten-block {
+    .views-row {
+      width: 24.3%;
+      float: left;
+      padding: 0 4%;
+      margin-bottom:50px;
+    }
+    .views-field-field-image {
+      img {
+        margin:0 0 10px 0;
+        margin:0 0 0 0;
+      }
+    }
+    .views-field-title {
+      text-align:left;
+    }
+    .views-field-body {
+      p {
+        text-align:left;
+      }
+    }
+  }
+}
+
 .block-projecten-block-1 {
   .views-row {
     width: 24.3%;
