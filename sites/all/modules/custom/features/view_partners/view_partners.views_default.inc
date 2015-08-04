@@ -29,7 +29,7 @@ function view_partners_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'full';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '5';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '2';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['pager']['options']['id'] = '0';
   $handler->display->display_options['pager']['options']['quantity'] = '9';
@@ -57,6 +57,11 @@ function view_partners_views_default_views() {
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Sort criterion: Content: Volgorde (field_volgorde) */
+  $handler->display->display_options['sorts']['field_volgorde_value']['id'] = 'field_volgorde_value';
+  $handler->display->display_options['sorts']['field_volgorde_value']['table'] = 'field_data_field_volgorde';
+  $handler->display->display_options['sorts']['field_volgorde_value']['field'] = 'field_volgorde_value';
+  $handler->display->display_options['sorts']['field_volgorde_value']['order'] = 'DESC';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
