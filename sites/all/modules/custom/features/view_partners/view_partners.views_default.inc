@@ -52,11 +52,6 @@ function view_partners_views_default_views() {
   $handler->display->display_options['fields']['field_logo']['settings'] = array(
     'image_style' => 'partner',
   );
-  /* Sort criterion: Content: Post date */
-  $handler->display->display_options['sorts']['created']['id'] = 'created';
-  $handler->display->display_options['sorts']['created']['table'] = 'node';
-  $handler->display->display_options['sorts']['created']['field'] = 'created';
-  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
   /* Sort criterion: Content: Volgorde (field_volgorde) */
   $handler->display->display_options['sorts']['field_volgorde_value']['id'] = 'field_volgorde_value';
   $handler->display->display_options['sorts']['field_volgorde_value']['table'] = 'field_data_field_volgorde';
