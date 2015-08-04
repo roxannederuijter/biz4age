@@ -756,7 +756,7 @@ h2 {
   width: 100%;
   z-index: 997; }
 
-ul#superfish-1 li.sf-item-2 ul {
+ul#superfish-1 li.sf-item-2 ul, ul#superfish-1 li.sf-item-3 ul {
   display: none;
   position: absolute;
   top: 100%;
@@ -765,7 +765,7 @@ ul#superfish-1 li.sf-item-2 ul {
   padding: 0;
   width: 100% !important;
   border-radius: 0; }
-  ul#superfish-1 li.sf-item-2 ul li {
+  ul#superfish-1 li.sf-item-2 ul li, ul#superfish-1 li.sf-item-3 ul li {
     float: none;
     width: 200px;
     background: none;
@@ -774,7 +774,7 @@ ul#superfish-1 li.sf-item-2 ul {
     color: #000;
     text-transform: uppercase;
     padding: 0 0 0 5px; }
-    ul#superfish-1 li.sf-item-2 ul li a {
+    ul#superfish-1 li.sf-item-2 ul li a, ul#superfish-1 li.sf-item-3 ul li a {
       background: none;
       margin: 0;
       margin-top: 17px;
@@ -783,7 +783,7 @@ ul#superfish-1 li.sf-item-2 ul {
       color: #fff;
       text-transform: none;
       font-weight: 300; }
-    ul#superfish-1 li.sf-item-2 ul li a:hover {
+    ul#superfish-1 li.sf-item-2 ul li a:hover, ul#superfish-1 li.sf-item-3 ul li a:hover {
       background: none;
       margin: 0;
       margin-top: 17px;
@@ -791,7 +791,7 @@ ul#superfish-1 li.sf-item-2 ul {
       color: #fff;
       text-transform: none;
       font-weight: 300; }
-    ul#superfish-1 li.sf-item-2 ul li a.active {
+    ul#superfish-1 li.sf-item-2 ul li a.active, ul#superfish-1 li.sf-item-3 ul li a.active {
       background: none;
       margin: 0;
       margin-top: 17px;
